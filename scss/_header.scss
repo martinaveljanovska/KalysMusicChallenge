@@ -29,6 +29,7 @@
 			width: 100%;
 			max-width: 700px;
 			margin: 0 auto 30px;
+			margin-top: 300px;
 			align-self: center;
 			@include transition;
 
@@ -36,7 +37,7 @@
 				font-weight: 800;
 				margin: 0;
 				margin-bottom: 30px;
-				font-size: 3.5em;
+				font-size: 3em;
 			}
 			p {
 				font-size: 20px;
@@ -85,7 +86,7 @@
 		.header-content {
 			.text {
 				width: 80%;
-				margin: 0 auto;
+				// margin: 0 auto;
 				justify-content: center;
 				text-align: center;
 			}
@@ -120,7 +121,7 @@
 
 			.text {
 				h1 {
-					font-size: 3.5em;
+					font-size: 1.5em;
 				}
 			}
 		}
