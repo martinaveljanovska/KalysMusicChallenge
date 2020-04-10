@@ -100,6 +100,8 @@
       src="https://www.youtube.com/embed/LOgsQZYt8iI"></iframe>
     </iframe>
 
+    <button id="watch-btn" class="cta-btn">Watch Now</button>
+
     <div class="inplayer-paywall" id="inplayer-96126">
     </div>
   </div>
@@ -322,7 +324,23 @@
 
   <script type="text/javascript">
 
-    var paywall = new InplayerPaywall('1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b', [{ id: 96126 }]);
+
+    var paywall = new InplayerPaywall('1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b', [{ id: 96126, options: { noPreview: true, noInject: true } }]);
+
+
+    document.getElementById('watch-btn').addEventListener('click', function () {
+      paywall.showPaywall(
+        {
+          asset: {
+            assetId: 96126,
+            // brandingId: 60,
+            // preselectedFeeId: 2146
+          }
+        }
+      )
+    });
+
+
 
     $.ajax({
       url: 'https://staging-v2.inplayer.com/items/49047',

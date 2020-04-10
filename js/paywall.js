@@ -1,5 +1,5 @@
 var config = {
-	package_id: "96126",
+	// package_id: "96126",
 	service_url: "https://staging-v2.inplayer.com",
 };
 
