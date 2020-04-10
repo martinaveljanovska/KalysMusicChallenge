@@ -322,37 +322,6 @@
   <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
   <script src="js/paywall.js"></script>
 
-  <script type="text/javascript">
-
-
-    var paywall = new InplayerPaywall('1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b', [{ id: 96126, options: { noPreview: true, noInject: true } }]);
-
-
-    document.getElementById('watch-btn').addEventListener('click', function () {
-      paywall.showPaywall(
-        {
-          asset: {
-            assetId: 96126,
-            // brandingId: 60,
-            // preselectedFeeId: 2146
-          }
-        }
-      )
-    });
-
-
-
-    $.ajax({
-      url: 'https://staging-v2.inplayer.com/items/49047',
-      success: function (resp) {
-        $('#item-title').html(resp.metahash.preview_title);
-        $('#item-description').html(resp.metahash.preview_description);
-
-      }
-
-    });
-
-  </script>
 </body>
 
 </html>

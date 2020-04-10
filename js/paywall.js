@@ -1,3 +1,17 @@
+var paywall = new InplayerPaywall("1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b", [
+	{ id: 96126, options: { noPreview: true, noInject: true } },
+]);
+
+document.getElementById("watch-btn").addEventListener("click", function () {
+	paywall.showPaywall({
+		asset: {
+			assetId: 96126,
+			// brandingId: 60,
+			// preselectedFeeId: 2146
+		},
+	});
+});
+
 var config = {
 	// package_id: "96126",
 	service_url: "https://staging-v2.inplayer.com",
