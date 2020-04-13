@@ -62,21 +62,3 @@ $.get(
 		} // for
 	}
 ); // get items
-
-$.ajax({
-	url: "https://services.inplayer.com/items/96126",
-	success: function (resp) {
-		$("#watch-btn").html(resp.metahash.preview_button_label);
-	},
-});
-
-// paywall.on("inject", function () {
-// 	$(".inplayer-paywall").addClass("responsive-iframe");
-// 	$.ajax({
-// 		url: config.service_url + "/items/" + getParameterByName("id"),
-// 		success: function (resp) {
-// 			var asset_desc = resp.metahash.preview_description;
-// 			$("#item-description").html(asset_desc);
-// 		},
-// 	});
-// });

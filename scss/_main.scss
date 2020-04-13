@@ -28,7 +28,7 @@ body {
 		display: flex;
 		align-items: center;
 		// padding: 40px 20px;
-		max-width: 1200px;
+		max-width: 1400px;
 		left: 50%;
 		transform: translateX(-50%);
 
@@ -85,7 +85,7 @@ body {
 				color: #fff;
 
 				.logo {
-					width: 75px;
+					width: 90px;
 				}
 			}
 		} // nav-container
@@ -125,6 +125,7 @@ body {
 					left: 0;
 					overflow: hidden;
 					display: none;
+					padding: 0;
 					// top: -400px;
 
 					li {
@@ -137,10 +138,6 @@ body {
 						a {
 							color: var(--dark);
 						}
-					}
-
-					.login-button {
-						margin: 20px 0;
 					}
 
 					&.slideInDown {
