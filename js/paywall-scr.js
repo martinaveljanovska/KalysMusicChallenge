@@ -4,7 +4,7 @@ var paywall = new InplayerPaywall("1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b", [
 
 
 
-$('.buy-96126').on('click', () => {
+$('.js-buy-96126').on('click', () => {
 	paywall.showPaywall({
 		asset: {
 			assetId: 96126
@@ -19,7 +19,7 @@ $('.buy-96126').on('click', () => {
 $(function () {
 
 
-	var donateButtons = $('.inplayer-donate-button');
+	var donateButtons = $('.js-inplayer-donate-button');
 
 	donateButtons.each(function () {
 
