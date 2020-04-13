@@ -57,7 +57,7 @@
 
 		.social-icons {
 			position: absolute;
-			left: 50px;
+			left: 10px;
 			top: 50%;
 			transform: translateY(-50%);
 			display: flex;
@@ -79,15 +79,15 @@
 			}
 		}
 
-		@media (max-width: 660px) {
-			.social-icons {
-				position: relative;
-				flex-direction: row;
-				transform: translateX(0);
-				left: 0;
-				justify-content: center;
-			}
-		}
+		// @media (max-width: 660px) {
+		// 	.social-icons {
+		// 		position: relative;
+		// 		flex-direction: row;
+		// 		transform: translateX(0);
+		// 		left: 0;
+		// 		justify-content: center;
+		// 	}
+		// }
 	}
 
 	@media (max-width: 950px) {
