@@ -29,6 +29,8 @@
 		padding: 20px 50px;
 		padding-bottom: 30px;
 		position: relative;
+		display: flex;
+		align-content: center;
 
 		.text {
 			color: #fff;
@@ -36,15 +38,11 @@
 			text-align: center;
 			padding: 30px 20px;
 			width: 100%;
-			// max-width: 700px;
-			margin: 0 auto 30px;
+			margin: 90px auto 30px;
 			align-self: center;
 			@include transition;
 
-			position: absolute;
-			top: 50%;
-			transform: translateY(-50%);
-			display: block;
+			
 
 			h1 {
 				font-weight: 800;
