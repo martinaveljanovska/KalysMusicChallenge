@@ -65,7 +65,7 @@
 
 			a {
 				margin: 10px;
-				opacity: 0.6;
+				opacity: 1;
 				color: white;
 				@include transition;
 
@@ -74,8 +74,7 @@
 				}
 
 				&:hover {
-					opacity: 1;
-					color: var(--primary);
+					opacity: .7;
 				}
 			}
 		}
