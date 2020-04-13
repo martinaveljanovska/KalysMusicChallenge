@@ -18,9 +18,26 @@ $('.buy-96126').on('click', () => {
 
 $(function () {
 
+
 	var donateButtons = $('.inplayer-donate-button');
 
-	console.log(donateButtons.length)
+	donateButtons.each(function () {
+
+		var currentButton = $(this);
+
+		let assetId = currentButton.data('id');
+
+		$.ajax({
+			url: `https://services.inplayer.com/items/${assetId}`,
+			success: function (resp) {
+
+				let buttonLabel = resp.metahash.preview_button_label;
+				currentButton.html(buttonLabel);
+			}
+		});
+	})
+
+
 
 	$(".inplayer-paywall-logout").parent().hide();
 	paywall.on("authenticated", function () {
