@@ -66,9 +66,8 @@
 		.inplayer-buybutton {
 			padding-left: 20px;
 
-			.inplayer-button {
-			
-			}
+			// .inplayer-button {
+			// }
 		}
 
 		.inplayer-preview-footer {
@@ -114,7 +113,7 @@
 		flex-direction: column;
 	}
 
-	@media screen and (max-width: 430px) {
+	@media screen and (max-width: 635px) {
 		iframe {
 			width: 100% !important;
 			display: block;
@@ -178,8 +177,6 @@
 			text-align: center;
 
 			.inplayer-button {
-	
-
 				width: initial;
 				min-width: initial;
 			}
