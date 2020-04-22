@@ -13,18 +13,19 @@ var paywall = new InplayerPaywall("1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b", [
 			noInject: true,
 		},
 	},
+	{
+		id: 97121,
+		options: {
+			noPreview: true,
+			noInject: true,
+		},
+	},
 ]);
 
 const checkAccess = (a) => {
-	// console.log("inside checkAccess");
-	// console.log(a)
-
 	if (a.hasAccess) {
-		// console.log("inside checkAccess hasAccess");
-
 		let assetId = a.asset.id;
 		let accessedAsset = $("body").find(`[data-id="${assetId}"]`);
-		// console.log(`${assetId} has access and button is hidden`);
 		accessedAsset.hide();
 	}
 };
@@ -33,13 +34,9 @@ const reloadAccess = a => {
 	if (a.hasAccess === false) {
 		let assetId = a.asset.id;
 		let accessedAsset = $("body").find(`[data-id="${assetId}"]`);
-		console.log(
-			// `${assetId} doesn't have access and button is shown once again`
-		);
 		accessedAsset.show();
 	}
 };
-
 
 paywall.on("access", (e, a) => {
 	checkAccess(a);
@@ -52,13 +49,10 @@ $(function () {
 
 	// dynamic on click
 	$(".js-inplayer-donate-button").on('click', function () {
-		let assetId = $(this).data('id');
-
-		console.log(assetId);
-
+		let currentAssetId = $(this).data('id');
 		paywall.showPaywall({
 			asset: {
-				assetId: assetId,
+				assetId: currentAssetId,
 			},
 		});
 
