@@ -59,10 +59,10 @@ const reloadAccess = function (a) {
 $(".js-buy").on("click", () => {
 	let assetId = $(this).data("id");
 
-	console.log(typeof assetId);
+	console.log("asset id is ", assetId);
 	paywall.showPaywall({
 		asset: {
-			assetId: 96335,
+			assetId: assetId,
 		},
 	});
 });
