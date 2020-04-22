@@ -40,29 +40,8 @@ const reloadAccess = a => {
 	}
 };
 
-const buyButton = function (a) {
-	paywall.showPaywall({
-		asset: {
-			assetId: a,
-		},
-	});
-}
-
-$(".js-inplayer-donate-button").on('click', function () {
-	let assetId = $(this).data('id');
-
-	console.log(assetId);
-
-	paywall.showPaywall({
-		asset: {
-			assetId: assetId,
-		},
-	});
-
-});
 
 paywall.on("access", (e, a) => {
-	// console.log("access checked");
 	checkAccess(a);
 	setTimeout(() => {
 		reloadAccess(a);
@@ -70,6 +49,22 @@ paywall.on("access", (e, a) => {
 });
 
 $(function () {
+
+	// dynamic on click
+	$(".js-inplayer-donate-button").on('click', function () {
+		let assetId = $(this).data('id');
+
+		console.log(assetId);
+
+		paywall.showPaywall({
+			asset: {
+				assetId: assetId,
+			},
+		});
+
+	});
+
+	// add labels to the buttons from dashboard
 	var donateButtons = $(".js-inplayer-donate-button");
 
 	donateButtons.each(function () {
