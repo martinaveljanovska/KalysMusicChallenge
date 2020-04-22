@@ -16,30 +16,31 @@ var paywall = new InplayerPaywall("1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b", [
 ]);
 
 const checkAccess = (a) => {
-	console.log("inside checkAccess");
+	// console.log("inside checkAccess");
 	// console.log(a)
 
 	if (a.hasAccess) {
-		console.log("inside checkAccess hasAccess");
+		// console.log("inside checkAccess hasAccess");
 
 		let assetId = a.asset.id;
 		let accessedAsset = $("body").find(`[data-id="${assetId}"]`);
-		console.log(`${assetId} has access and button is hidden`);
+		// console.log(`${assetId} has access and button is hidden`);
 		accessedAsset.hide();
 	}
 };
 
-const reloadAccess = function (a) {
+const reloadAccess = a => {
 	if (a.hasAccess === false) {
 		let assetId = a.asset.id;
 		let accessedAsset = $("body").find(`[data-id="${assetId}"]`);
 		console.log(
-			`${assetId} doesn't have access and button is shown once again`
+			// `${assetId} doesn't have access and button is shown once again`
 		);
 		accessedAsset.show();
 	}
 };
 
+<<<<<<< HEAD
 // $('.js-buy-96126').on('click', () => {
 // 	paywall.showPaywall({
 // 		asset: {
@@ -66,9 +67,10 @@ $(".js-buy").on("click", () => {
 		},
 	});
 });
+=======
+>>>>>>> 2c31ea91283904538013079cba892c4faff76d23
 
 paywall.on("access", (e, a) => {
-	console.log("access checked");
 	checkAccess(a);
 	setTimeout(() => {
 		reloadAccess(a);
@@ -76,12 +78,27 @@ paywall.on("access", (e, a) => {
 });
 
 $(function () {
+
+	// dynamic on click
+	$(".js-inplayer-donate-button").on('click', function () {
+		let assetId = $(this).data('id');
+
+		console.log(assetId);
+
+		paywall.showPaywall({
+			asset: {
+				assetId: assetId,
+			},
+		});
+
+	});
+
+	// add labels to the buttons from dashboard
 	var donateButtons = $(".js-inplayer-donate-button");
 
 	donateButtons.each(function () {
 		var currentButton = $(this);
-
-		let assetId = currentButton.data("id");
+		var assetId = currentButton.data("id");
 
 		$.ajax({
 			url: `https://services.inplayer.com/items/${assetId}`,
@@ -91,6 +108,7 @@ $(function () {
 			},
 		});
 	});
+
 
 	$(".inplayer-paywall-logout").parent().hide();
 	paywall.on("authenticated", function () {
