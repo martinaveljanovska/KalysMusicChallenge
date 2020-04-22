@@ -27,13 +27,28 @@ const checkAccess = function (a) {
 	}
 }
 
+// const reloadAccess = function (a) {
+// 	if (a.hasAccess === false) {
+// 		let assetId = a.asset.id;
+// 		let accessedAsset = $('body').find(`[data-id="${assetId}"]`);
+// 		alert(`${assetId} doesn't have access`)
+// 		accessedAsset.addClass('show');
+// 	}
+// }
+
 const reloadAccess = function (a) {
-	if (a.hasAccess === false) {
-		let assetId = a.asset.id;
-		let accessedAsset = $('body').find(`[data-id="${assetId}"]`);
-		alert(`${assetId} doesn't have access`)
-		accessedAsset.addClass('show');
+	return function () {
+		if (a.hasAccess === false) {
+			let assetId = a.asset.id;
+			let accessedAsset = $('body').find(`[data-id="${assetId}"]`);
+			alert(`${assetId} doesn't have access`)
+			accessedAsset.addClass('show');
+		}
 	}
+}
+
+const alertJs = () => {
+	alert('10 seconds later.')
 }
 
 $('.js-buy-96126').on('click', () => {
@@ -56,7 +71,9 @@ $('.js-buy-96335').on('click', () => {
 paywall.on('access', (e, a) => {
 	// console.log(a)
 	checkAccess(a);
-	setTimeout(reloadAccess(a), 60000);
+	// setTimeout(reloadAccess(a), 60000);
+	setTimeout(reloadAccess(a), 10000);
+
 });
 
 
