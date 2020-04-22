@@ -18,38 +18,30 @@ var paywall = new InplayerPaywall('1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b', [
 ]);
 
 
-const checkAccess = function (a) {
+const checkAccess = a => {
+	console.log('inside checkAccess');
+	// console.log(a)
+
 	if (a.hasAccess) {
+		console.log('inside checkAccess hasAccess');
+
 		let assetId = a.asset.id;
 		let accessedAsset = $('body').find(`[data-id="${assetId}"]`);
-		alert(`${assetId} has access`)
-		accessedAsset.addClass('hide');
+		console.log(`${assetId} has access and button is hidden`)
+		accessedAsset.hide();
 	}
-}
 
-// const reloadAccess = function (a) {
-// 	if (a.hasAccess === false) {
-// 		let assetId = a.asset.id;
-// 		let accessedAsset = $('body').find(`[data-id="${assetId}"]`);
-// 		alert(`${assetId} doesn't have access`)
-// 		accessedAsset.addClass('show');
-// 	}
-// }
+}
 
 const reloadAccess = function (a) {
-	return function () {
-		if (a.hasAccess === false) {
-			let assetId = a.asset.id;
-			let accessedAsset = $('body').find(`[data-id="${assetId}"]`);
-			alert(`${assetId} doesn't have access`)
-			accessedAsset.addClass('show');
-		}
+	if (a.hasAccess === false) {
+		let assetId = a.asset.id;
+		let accessedAsset = $('body').find(`[data-id="${assetId}"]`);
+		console.log(`${assetId} doesn't have access and button is shown once again`)
+		accessedAsset.show();
 	}
 }
 
-const alertJs = () => {
-	alert('10 seconds later.')
-}
 
 $('.js-buy-96126').on('click', () => {
 	paywall.showPaywall({
@@ -69,12 +61,15 @@ $('.js-buy-96335').on('click', () => {
 })
 
 paywall.on('access', (e, a) => {
-	// console.log(a)
+
+	console.log('access checked')
 	checkAccess(a);
-	// setTimeout(reloadAccess(a), 60000);
-	setTimeout(reloadAccess(a), 10000);
+	setTimeout(() => { reloadAccess(a) }, 60000);
+
 
 });
+
+
 
 
 
