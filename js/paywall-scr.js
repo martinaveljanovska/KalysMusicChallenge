@@ -1,8 +1,40 @@
-var paywall = new InplayerPaywall("1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b", [
-	{ id: 96126, options: { noPreview: true, noInject: true } },
+var paywall = new InplayerPaywall('1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b', [
+	{
+		id: 96335,
+		options:
+		{
+			noPreview: true,
+			noInject: true
+		}
+	},
+	{
+		id: 96126,
+		options:
+		{
+			noPreview: true,
+			noInject: true
+		}
+	}
 ]);
 
 
+const checkAccess = function (a) {
+	if (a.hasAccess) {
+		let assetId = a.asset.id;
+		let accessedAsset = $('body').find(`[data-id="${assetId}"]`);
+		alert(`${assetId} has access`)
+		accessedAsset.addClass('hide');
+	}
+}
+
+const reloadAccess = function (a) {
+	if (a.hasAccess === false) {
+		let assetId = a.asset.id;
+		let accessedAsset = $('body').find(`[data-id="${assetId}"]`);
+		alert(`${assetId} doesn't have access`)
+		accessedAsset.addClass('show');
+	}
+}
 
 $('.js-buy-96126').on('click', () => {
 	paywall.showPaywall({
@@ -12,6 +44,20 @@ $('.js-buy-96126').on('click', () => {
 	});
 })
 
+
+$('.js-buy-96335').on('click', () => {
+	paywall.showPaywall({
+		asset: {
+			assetId: 96335
+		}
+	});
+})
+
+paywall.on('access', (e, a) => {
+	// console.log(a)
+	checkAccess(a);
+	setTimeout(reloadAccess(a), 60000);
+});
 
 
 
