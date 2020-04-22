@@ -38,6 +38,8 @@ const reloadAccess = a => {
 	}
 };
 
+
+
 paywall.on("access", (e, a) => {
 	checkAccess(a);
 	setTimeout(() => {
