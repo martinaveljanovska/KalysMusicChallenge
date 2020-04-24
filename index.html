@@ -51,11 +51,17 @@
         <!-- <b>CONFERENCE </b> -->
       </a>
       <ul id="menu" class="animated slideOutUp">
-        <li> <a href="#asset" class="page-scroll">Music</a> </li>
-        <li> <a href="#faq" class="page-scroll">FAQ</a> </li>
+        <li> <a href="#asset" class="page-scroll" data-lang="music"></a> </li>
+        <li> <a href="#faq" class="page-scroll" data-lang="faq"></a> </li>
         <li> <a href="#footer" class="page-scroll">Contact</a> </li>
         <li><a href="#/" class="login-button  inplayer-paywall-login">Login</a> </li>
         <li><a href="#/" class="login-button  inplayer-paywall-logout">Logout</a> </li>
+        <li>
+          <ul id="languages" class="dropdown">
+            <li><a href="#/" class="lang-select">EN</a></li>
+            <li><a href="#/" class="lang-select">MK</a></li>
+          </ul>
+        </li>
       </ul>
     </div>
     <button class="hamburger hamburger--squeeze" type="button" id="toggle">
@@ -273,6 +279,7 @@
     integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
   <script src="js/paywall-scr.js"></script>
+  <script src="js/languages.js"></script>
 
 </body>
 
