@@ -1,7 +1,15 @@
 
-/*const en = {
+const en = {
     music: 'Music',
     faq: 'FAQ',
+    contact: 'Contact',
+    login: 'Login',
+    logout: 'Logout',
+    watchNow: 'Watch Now',
+    needHelp: 'Need help?',
+    loginPayment: 'Login and payment',
+    other: 'Other'
+
 }
 
 const mk = {
@@ -22,12 +30,12 @@ const setLang = lang => {
 
 // usage
 $('.lang-select').on('click', e => {
-    const lang = e.target.value;
-    console.log('asgasg', lang);
+    const lang = e.target.innerHTML.toLowerCase();
+    console.log('asdasdasd', lang)
     paywall.setLanguage(lang);
 });
 
 paywall.on('language', (e, data) => {
     const lang = (e.data || data).language;
     setLang(lang);
-});*/
+});
