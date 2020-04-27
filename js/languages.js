@@ -14,7 +14,14 @@ const en = {
 
 const mk = {
     music: "Музика",
-    faq: 'Помош'
+    faq: 'Помош',
+    contact: 'Контакт',
+    login: 'Најава',
+    logout: 'Одлогирај ме',
+    watchNow: 'Гледај сега',
+    needHelp: 'Треба помош?',
+    loginPayment: 'Најава и плаќање',
+    other: 'Останато'
 }
 const languages = { en, mk };
 
