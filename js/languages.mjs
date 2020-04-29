@@ -1,6 +1,6 @@
+import paywall from './paywall.mjs';
 
 const languages = { en, mk };
-
 
 const setLang = lang => {
     const all = document.querySelectorAll('[data-lang]');

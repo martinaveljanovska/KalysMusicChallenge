@@ -1,3 +1,7 @@
+import bandsData from './bands.js';
+
+console.error("bands data:", bandsData);
+
 function getParameterByName(name, url) {
 	if (!url) url = window.location.href;
 	name = name.replace(/[\[\]]/g, "\\$&");
@@ -9,7 +13,7 @@ function getParameterByName(name, url) {
 }
 
 
-var paywall = new InplayerPaywall("1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b", [
+let paywall = new InplayerPaywall("1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b", [
 	{
 		id: 97121,
 		options: {
@@ -18,6 +22,8 @@ var paywall = new InplayerPaywall("1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b", [
 		},
 	},
 ]);
+
+export default paywall;
 
 
 const checkAccess = (a) => {
@@ -36,7 +42,6 @@ const reloadAccess = a => {
 	}
 };
 
-
 paywall.on("access", (e, a) => {
 	checkAccess(a);
 	setTimeout(() => {
@@ -47,28 +52,16 @@ paywall.on("access", (e, a) => {
 
 // CREATE ASSET
 const createCard = (id, image, title) => {
-	var output = `<div class="package-item" data-id="${id}"><div class="content" style="background-image:url(${image})"><a href="./item.html?id=${id}" class="overlay-link"></a></div><div class="item-label"><div class="name">${title}</div></div></div>`;
-
-	// console.log(output)
-	return output;
-
+	return `<div class="package-item" data-id="${id}"><div class="content" style="background-image:url(${image})"><a href="./item.html?id=${id}" class="overlay-link"></a></div><div class="item-label"><div class="name">${title}</div></div></div>`;
 }
 
 const createPreviewItem = (id, title, video, description) => {
-	var output = `<div class="preview-video">
-					<h3>${title}</h3>${video}
+  return `<div class="preview-video">
+					  <h3>${title}</h3>${video}
 					</div>`;
-	return output;
 }
 
-
 $(function () {
-
-	//  LOAD DATA FOR PACKAGE ITEMS
-	let result = "";
-	$.getJSON("bands.js", function (data) {
-		console.log('data is here: ' + data)
-	})
 	// videos.forEach(e => {
 
 	// 	let id = e.id,
