@@ -1,6 +1,26 @@
 import { getParameterByName } from "./helpers.js"
 
+// var paywall = new InplayerPaywall('1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b', [{
+// 	id: 97121, options: {
+// 		noPreview: true,
+// 			noInject: true
+// 	}
+// }]);
+
+var paywall = new InplayerPaywall("1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b", [
+	{
+		id: 97121,
+		options: {
+			noPreview: true,
+			noInject: true,
+		},
+	},
+]);
+
 $(function () {
+
+
+
 	// accordion
 
 	$(".toggle").click(function (e) {

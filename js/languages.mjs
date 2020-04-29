@@ -1,6 +1,7 @@
 import paywall from './paywall.mjs';
 
 const languages = { en, mk };
+var lang = "";
 
 const setLang = lang => {
     const all = document.querySelectorAll('[data-lang]');
@@ -13,12 +14,17 @@ const setLang = lang => {
 
 // usage
 $('.lang-select').on('click', e => {
-    const lang = e.target.innerHTML.toLowerCase();
-    // console.log('asdasdasd', lang)
+    lang = e.target.innerHTML.toLowerCase();
     paywall.setLanguage(lang);
+
+    let current_url = window.location.href.split('?')[0];
+    window.location.replace(`${current_url}?lang=${lang}`)
 });
 
 paywall.on('language', (e, data) => {
-    const lang = (e.data || data).language;
+    lang = (e.data || data).language;
+    // console.log(`current lang is: ${lang}`)
+    // let current_url = window.location.href.split('?')[0];
+    // window.location.replace(`${current_url}?lang=${lang}`)
     setLang(lang);
 });

@@ -53,33 +53,25 @@ const createPreviewItem = (id, title, video, description) => {
 $(function () {
 	// videos.forEach(e => {
 
-	// 	let id = e.id,
-	// 		title = e.title,
-	// 		image = e.image;
-
-	// 	result += createCard(id, image, title);
-	// 	// console.log(result)
-	// 	$('#package-items').html(result)
-	// });
-
 	// LOAD DATA FOR PREVIEW ITEM
-	// let currentId = getParameterByName('id');
-	// if (currentId != null) {
-	// 	let result = "";
+	let currentId = getParameterByName('id');
+	if (currentId != null) {
+		let result = "";
 
-	// 	let base = videos[currentId];
-	// 	console.log(typeof currentId)
+		let base = videos[currentId];
+		// console.log(typeof currentId)
 
-	// 	let title = base.title,
-	// 		id = base.id,
-	// 		video = base.video,
-	// 		desc = base.description;
+		let title = base.title,
+			id = base.id,
+			video = base.video;
 
 
-	// 	result += createPreviewItem(id, title, video, desc);
-	// 	$('#preview-item').html(result);
+		let desc = base.description;
 
-	// }
+
+		result += createPreviewItem(id, title, video, desc);
+		$('#preview-item').html(result);
+	}
 
 	// dynamic on click
 	$(".js-inplayer-donate-button").on('click', function () {
