@@ -28,6 +28,8 @@ paywall.on("access", (e, a) => {
 
 // CREATE ASSET
 const createCard = (id, image, title) => {
+	var current_lang = getParameterByName(lang)
+	console.log(current_lang);
 	var output = `<div class="package-item" data-id="${id}"><div class="content" style="background-image:url(${image})"><a href="./item.html?id=${id}" class="overlay-link"></a></div><div class="item-label"><div class="name">${title}</div></div></div>`;
 
 	// console.log(output)
