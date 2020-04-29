@@ -1,17 +1,7 @@
 import bandsData from './bands.js';
+import { getParameterByName } from "./helpers.js"
 
 console.error("bands data:", bandsData);
-
-function getParameterByName(name, url) {
-	if (!url) url = window.location.href;
-	name = name.replace(/[\[\]]/g, "\\$&");
-	var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-		results = regex.exec(url);
-	if (!results) return null;
-	if (!results[2]) return '';
-	return decodeURIComponent(results[2].replace(/\+/g, " "));
-}
-
 
 let paywall = new InplayerPaywall("1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b", [
 	{
@@ -24,7 +14,6 @@ let paywall = new InplayerPaywall("1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b", [
 ]);
 
 export default paywall;
-
 
 const checkAccess = (a) => {
 	if (a.hasAccess) {
