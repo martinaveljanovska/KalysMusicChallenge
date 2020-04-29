@@ -1,28 +1,4 @@
 
-const en = {
-    music: 'Music',
-    faq: 'FAQ',
-    contact: 'Contact',
-    login: 'Login',
-    logout: 'Logout',
-    watchNow: 'Watch Now',
-    needHelp: 'Need help?',
-    loginPayment: 'Login and payment',
-    other: 'Other'
-
-}
-
-const mk = {
-    music: "Музика",
-    faq: 'Помош',
-    contact: 'Контакт',
-    login: 'Најава',
-    logout: 'Одлогирај ме',
-    watchNow: 'Гледај сега',
-    needHelp: 'Треба помош?',
-    loginPayment: 'Најава и плаќање',
-    other: 'Останато'
-}
 const languages = { en, mk };
 
 
@@ -38,7 +14,7 @@ const setLang = lang => {
 // usage
 $('.lang-select').on('click', e => {
     const lang = e.target.innerHTML.toLowerCase();
-    console.log('asdasdasd', lang)
+    // console.log('asdasdasd', lang)
     paywall.setLanguage(lang);
 });
 

@@ -15,7 +15,7 @@
 
 p {
 	line-height: 1.5em;
-	color: #b1b1b1;
+	color: #313131;
 	font-weight: 400;
 }
 
@@ -23,6 +23,14 @@ h1,
 h2,
 h3 {
 	font-family: $font1;
+}
+section{
+	padding: 50px 30px;
+}
+.container{
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
 }
 
 .container-title {
