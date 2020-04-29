@@ -38,10 +38,10 @@ paywall.on("access", (e, a) => {
 	}, 60000);
 });
 
-
 // CREATE ASSET
 const createCard = (id, image, title) => {
-	return `<div class="package-item" data-id="${id}"><div class="content" style="background-image:url(${image})"><a href="./item.html?id=${id}" class="overlay-link"></a></div><div class="item-label"><div class="name">${title}</div></div></div>`;
+  const current_lang = getParameterByName(lang)
+  return `<div class="package-item" data-id="${id}"><div class="content" style="background-image:url(${image})"><a href="./item.html?id=${id}" class="overlay-link"></a></div><div class="item-label"><div class="name">${title}</div></div></div>`;
 }
 
 const createPreviewItem = (id, title, video, description) => {
@@ -52,7 +52,6 @@ const createPreviewItem = (id, title, video, description) => {
 
 $(function () {
 	// videos.forEach(e => {
-
 	// LOAD DATA FOR PREVIEW ITEM
 	let currentId = getParameterByName('id');
 	if (currentId != null) {

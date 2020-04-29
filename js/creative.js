@@ -1,28 +1,5 @@
-import { getParameterByName } from "./helpers.js"
-
-// var paywall = new InplayerPaywall('1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b', [{
-// 	id: 97121, options: {
-// 		noPreview: true,
-// 			noInject: true
-// 	}
-// }]);
-
-var paywall = new InplayerPaywall("1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b", [
-	{
-		id: 97121,
-		options: {
-			noPreview: true,
-			noInject: true,
-		},
-	},
-]);
-
 $(function () {
-
-
-
 	// accordion
-
 	$(".toggle").click(function (e) {
 		e.preventDefault();
 		let inner = $(this).next(".inner");
@@ -46,19 +23,19 @@ $(function () {
 	});
 
 	// jQuery for page scrolling feature - requires jQuery Easing plugin
-	$(".page-scroll").bind("click", function (event) {
-		var $anchor = $(this);
-		$("html, body")
-			.stop()
-			.animate(
-				{
-					scrollTop: $($anchor.attr("href")).offset().top - 50,
-				},
-				250,
-				"easeOutSine"
-			);
-		event.preventDefault();
-	});
+	// $(".page-scroll").bind("click", function (event) {
+	// 	var $anchor = $(this);
+	// 	$("html, body")
+	// 		.stop()
+	// 		.animate(
+	// 			{
+	// 				scrollTop: $($anchor.attr("href")).offset().top - 50,
+	// 			},
+	// 			250,
+	// 			"easeOutSine"
+	// 		);
+	// 	event.preventDefault();
+	// });
 
 	// BACK TO TOP BUTTON
 	var offset = 550;
