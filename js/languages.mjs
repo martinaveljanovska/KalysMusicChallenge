@@ -1,5 +1,6 @@
-import paywall from './paywall.mjs';
+import { initializePaywall } from './paywall.mjs';
 
+let paywall = initializePaywall();
 const languages = { en, mk };
 let lang = "";
 

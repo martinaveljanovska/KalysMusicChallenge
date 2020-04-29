@@ -1,17 +1,19 @@
 import bandsData from './bands.js';
 import { getParameterByName } from "./helpers.js"
 
-let paywall = new InplayerPaywall("1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b", [
-	{
-		id: 97121,
-		options: {
-			noPreview: true,
-			noInject: true,
-		},
-	},
-]);
+export function initializePaywall() {
+ return new InplayerPaywall("1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b", [
+    {
+      id: 97121,
+      options: {
+        noPreview: true,
+        noInject: true,
+      },
+    },
+  ]);
+};
 
-export default paywall;
+let paywall = initializePaywall();
 
 const checkAccess = (a) => {
 	if (a.hasAccess) {
