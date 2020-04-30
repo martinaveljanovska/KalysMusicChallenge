@@ -1,11 +1,11 @@
 [
     {
-        'id': 1,
-        'title': 'Video title one',
-        'image': 'img/thumb/video-one.jpg',
-        'video': `<iframe width="610" height="339" frameborder="0" allowfullscreen
+        "id": 1,
+        "title": 'Video title one',
+        "image": 'img/thumb/video-one.jpg',
+        "video": `<iframe width="610" height="339" frameborder="0" allowfullscreen
         src="https://www.youtube.com/embed/LOgsQZYt8iI"></iframe>`,
-        'descriptionEN': `MusaiQ entered the audience&#39;s sonic map in late 2015. A self- evident, mosaiq-like
+        "descriptionEN": `MusaiQ entered the audience&#39;s sonic map in late 2015. A self- evident, mosaiq-like
 		musicianship is the life force of this unusual collective. The music they create is an alloy of
 		styles tied together by a specific thread that is actually the heart of this group, whether it be
 		through interpretation / remakes of hits from different sides of the musical compass or in their
@@ -19,7 +19,7 @@
 		Trio, Antiart);
 		Aleksandar Vanchovski – drums (Hideout, Scriming For Change, ATOM, Bramha Trio, 3ject,
 		Antiart);`,
-        'descriptionMK': `Мјузаик егзистира на звучната мапа на публикумот од 2015 год. Мозаично музицирање е
+        "descriptionMK": `Мјузаик егзистира на звучната мапа на публикумот од 2015 год. Мозаично музицирање е
 		кредото според кое делува овој несекојдневен колектив. Музиката која ја креираат
 		претставува легура од стилови поврзани со специфична нишка која всушност е срцето на
 		овој состав, било тоа да е преку интерпретација на преработки на хитови од различни
@@ -35,26 +35,26 @@
 		3ject, Antiart);`
     },
     {
-        'id': 2,
-        'title': 'Video title two',
-        'image': 'img/thumb/video-one.jpg',
-        'video': `<iframe width="610" height="339" frameborder="0" allowfullscreen
+        "id": 2,
+        "title": 'Video title two',
+        "image": 'img/thumb/video-one.jpg',
+        "video": `<iframe width="610" height="339" frameborder="0" allowfullscreen
         src="https://www.youtube.com/embed/LOgsQZYt8iI"></iframe>`,
         'description': `Desc for video two`
     },
     {
-        'id': 3,
-        'title': 'Video title three',
-        'image': 'img/thumb/video-one.jpg',
-        'video': `<iframe width="610" height="339" frameborder="0" allowfullscreen
+        "id": 3,
+        "title": 'Video title three',
+        "image": 'img/thumb/video-one.jpg',
+        "video": `<iframe width="610" height="339" frameborder="0" allowfullscreen
         src="https://www.youtube.com/embed/LOgsQZYt8iI"></iframe>`,
         'description': `Desc for video three`
     },
     {
-        'id': 4,
-        'title': 'Video title four',
-        'image': 'img/thumb/video-one.jpg',
-        'video': `<iframe width="610" height="339" frameborder="0" allowfullscreen
+        "id": 4,
+        "title": 'Video title four',
+        "image": 'img/thumb/video-one.jpg',
+        "video": `<iframe width="610" height="339" frameborder="0" allowfullscreen
         src="https://www.youtube.com/embed/LOgsQZYt8iI"></iframe>`,
         'description': `Desc for video four`
     }

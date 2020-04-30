@@ -34,7 +34,6 @@
     <!-- inplayer script -->
     <script type="text/javascript" src="https://assets.inplayer.com/paywall/latest/paywall.min.js"></script>
 
-
     <!-- google fonts  -->
     <link href="https://fonts.googleapis.com/css?family=Lato|Maven+Pro:500,700&display=swap" rel="stylesheet">
 
@@ -99,6 +98,24 @@
         <div class="inplayer-paywall" id="inplayer-96126"></div>
         <div id="inplayer-96335" class="inplayer-paywall"></div> -->
             <div id="inplayer-97121" class="inplayer-paywall"></div>
+            <script>
+                var paywall = new InplayerPaywall('1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b', [{
+                    id: 97121,
+                    options: {
+                        noPreview: true,
+                        noInject: true
+                    }
+                }]);
+            </script>
+
+            <div class="preview-video">
+                <iframe src="" frameborder="0"></iframe>
+                <div class="preview-video-info">
+                    <h3></h3>
+                    <div class="desc"></div>
+                    <button class="black-btn button js-inplayer-donate-button" data-id="96335"></button>
+                </div>
+            </div>
 
         </div>
         </div>
@@ -260,24 +277,29 @@
             <!-- <a href="https://soundcloud.com/besjournals" target="_blank">
         <i class="fab fa-soundcloud"></i>
       </a> -->
+        </div>
+
+        <a id="ip" href="https://inplayer.com/" target="_blank">Powered by InPlayer</a>
     </footer>
 
-    <a id="ip" href="https://inplayer.com/" target="_blank">Powered by InPlayer</a>
-    </div>
 
 
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/creative.js"></script>
     <script type="text/javascript" src="js/jquery.easing.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script type="text/javascript" src="js/creative.js"></script>
+    <script src="js/paywall.js"></script>
+    <script src="js/bands.js"></script>
+    <script src="js/grid-template.js"></script>
     <script src="js/mk.js"></script>
     <script src="js/en.js"></script>
     <script src="js/languages.js"></script>
-    <script src="js/paywall.js"></script>
+
+
 
 </body>
 

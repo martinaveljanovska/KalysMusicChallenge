@@ -8,22 +8,7 @@ function getParameterByName(name, url) {
 	return decodeURIComponent(results[2].replace(/\+/g, " "));
 }
 
-// var paywall = new InplayerPaywall('1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b', [{
-// 	id: 97121, options: {
-// 		noPreview: true,
-// 			noInject: true
-// 	}
-// }]);
 
-var paywall = new InplayerPaywall("1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b", [
-	{
-		id: 97121,
-		options: {
-			noPreview: true,
-			noInject: true,
-		},
-	},
-]);
 
 $(function () {
 
