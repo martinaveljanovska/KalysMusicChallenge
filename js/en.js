@@ -1,5 +1,5 @@
 const en = {
-    music: 'Music',
+    bands: 'Bands',
     musicSaves: 'Music Saves',
     faq: 'FAQ',
     contact: 'Contact',

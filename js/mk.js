@@ -1,5 +1,5 @@
 const mk = {
-    music: 'Музика',
+    bands: 'Бендови',
     musicSaves: "Музиката спасува",
     faq: 'Помош',
     contact: 'Контакт',
