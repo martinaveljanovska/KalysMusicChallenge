@@ -1,8 +1,6 @@
-import bandsData from './bands.js';
-import { getParameterByName } from "./helpers.js"
 
 export function initializePaywall() {
- return new InplayerPaywall("1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b", [
+  return new InplayerPaywall("1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b", [
     {
       id: 97121,
       options: {
@@ -16,71 +14,29 @@ export function initializePaywall() {
 let paywall = initializePaywall();
 
 const checkAccess = (a) => {
-	if (a.hasAccess) {
-		let assetId = a.asset.id;
-		let accessedAsset = $("body").find(`[data-id="${assetId}"]`);
-		accessedAsset.hide();
-	}
+  if (a.hasAccess) {
+    let assetId = a.asset.id;
+    let accessedAsset = $("body").find(`[data-id="${assetId}"]`);
+    accessedAsset.hide();
+  }
 };
 
 const reloadAccess = a => {
-	if (a.hasAccess === false) {
-		let assetId = a.asset.id;
-		let accessedAsset = $("body").find(`[data-id="${assetId}"]`);
-		accessedAsset.show();
-	}
+  if (a.hasAccess === false) {
+    let assetId = a.asset.id;
+    let accessedAsset = $("body").find(`[data-id="${assetId}"]`);
+    accessedAsset.show();
+  }
 };
 
 paywall.on("access", (e, a) => {
-	checkAccess(a);
-	setTimeout(() => {
-		reloadAccess(a);
-	}, 60000);
+  checkAccess(a);
+  setTimeout(() => {
+    reloadAccess(a);
+  }, 60000);
 });
 
-// CREATE ASSET
-const createCard = (id, image, title) => {
-  return `<div class="package-item" data-id="${id}"><div class="content" style="background-image:url(${image})"><a href="./item.html?id=${id}" class="overlay-link"></a></div><div class="item-label"><div class="name">${title}</div></div></div>`;
-}
-
-const createPreviewItem = (id, title, video, description) => {
-  return `<div class="preview-video">
-					  <h3>${title}</h3>${video}<p>${description}</p>
-					</div>`;
-}
-
 $(function () {
-  let result = "";
-  bandsData.forEach(e => {
-    let id = e.id - 1,
-      title = e.title,
-      image = e.image;
-
-    result += createCard(id, image, title);
-    // console.log(result)
-    $('#package-items').html(result)
-  });
-
-  // LOAD DATA FOR PREVIEW ITEM
-  let currentId = getParameterByName('id');
-  if (currentId != null) {
-    let result = "";
-
-    let base = bandsData[currentId];
-    // console.log(typeof currentId)
-
-    let title = base.title,
-      id = base.id,
-      video = base.video;
-
-
-    let desc = base.description;
-
-
-    result += createPreviewItem(id, title, video, desc);
-    $('#preview-item').html(result);
-
-  }
 
   // dynamic on click
   $(".js-inplayer-donate-button").on('click', function () {
