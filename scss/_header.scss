@@ -33,6 +33,7 @@
 		align-content: center;
 
 		.text {
+			position: relative;
 			color: #fff;
 			font-family: $font1;
 			text-align: center;
@@ -54,8 +55,8 @@
 		}
 
 		.social-icons {
-			
 			display: flex;
+			justify-content: center;
 
 			a {
 				margin: 10px;
@@ -78,13 +79,13 @@
 
 @media screen and (min-width: 790px){
 	.header-content{
-		.social-icons{
-			position: absolute;
-			left: 40px;
-			top: 50%;
-			transform: translateY(-50%);
-			flex-direction: column;
-		}
+		// .social-icons{
+		// 	position: absolute;
+		// 	left: 0px;
+		// 	top: 50%;
+		// 	transform: translateY(-50%);
+		// 	flex-direction: column;
+		// }
 	}
 }
 

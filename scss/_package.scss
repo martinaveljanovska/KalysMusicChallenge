@@ -4,18 +4,17 @@
     max-width: 1100px;
     margin: 0 auto;
 
-
       #package-items{
+        width: 100%;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
 
         .package-item {
+          display: inline-block;
           position: relative;
           width: 100%;
-          max-width: 50%;
-          min-width: 253px;
-          padding: 4px;
+          // max-width: 400px;
+          padding: 10px;
           margin-bottom: 20px;
           transition: all linear .15s;
           -ms-transition: all linear .15s;
@@ -23,8 +22,7 @@
           -webkit-transition: all linear .15s;
 
           .content {
-            height: 300px;
-            padding: 10px;
+            padding-top: calc(12/16 * 100%);
             background-size: cover;
             background-position: center;
             position: relative;
@@ -41,15 +39,13 @@
                 -moz-transition: all linear .15s;
                 -webkit-transition: all linear .15s;
               }
-          } // content
 
-          .item-label {
-            font-size: 17px;
-            line-height: 23px;
-            text-align: center;
-            z-index: 11;
-            align-items: center;
-          } // item label
+            } // content
+                .name{
+                  margin: 10px 0;
+                  text-align: center;
+                }
+
 
           &:hover{
             .overlay-link {
@@ -58,13 +54,18 @@
 
             }
           }
+          @media screen and (min-width: 769px) {
+            width: 50%;
+          }
+          @media screen and (min-width: 950px) {
+            width: 33.33%;
+          }
+          @media screen and (max-width:769px){
+            margin: 10px auto;
+            max-width: 400px;
+          }
         } // package item
 
-        &#package-items-two{
-          .package-item{
-            // width: 32%;
-          }
-        }
       } // package items
 
   } // package
