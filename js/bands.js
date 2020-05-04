@@ -61,8 +61,7 @@ export default [
         "assetId": 97121,
         "title": 'Junkyard',
         "image": 'img/thumb/junkyard.jpg',
-        "video": `<iframe width="610" height="339" frameborder="0" allowfullscreen
-        src="https://www.youtube.com/embed/LOgsQZYt8iI"></iframe>`,
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/DvLzbSt1jI0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
         "descriptionEN": `Hey, guys! We are Junkyard, a band situated in the capital of North Macedonia, Skopje. Our
         journey actually begins few years ago, 2017 to be exact. We are a group of young students and
         musicians who happen to share the same love and passion for the sound of funk and disco

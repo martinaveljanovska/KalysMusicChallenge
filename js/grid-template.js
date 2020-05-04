@@ -66,6 +66,7 @@ $(function () {
                 }
                 result = createPreviewItem(id, title, video, desc, buttonLabel);
                 $('#preview-item').html(result);
+                console.log(`current asset: ${id} and label is: ${buttonLabel}`)
 
             }
         });

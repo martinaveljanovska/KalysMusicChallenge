@@ -54,7 +54,7 @@ $(function () {
 
   // dynamic on click
 
-  $('body').click('.js-inplayer-donate-button', e => {
+  $('body').on('click', '.js-inplayer-donate-button', e => {
     let currentAssetId = $(e.target).data('id');
     // console.log($(e.target).data('id'))
     paywall.showPaywall({
@@ -63,24 +63,6 @@ $(function () {
       },
     });
   });
-
-
-  // add labels to the buttons from dashboard
-  var donateButtons = $(".js-inplayer-donate-button");
-
-  donateButtons.each(function () {
-    var currentButton = $(this);
-    var assetId = currentButton.data("id");
-
-    $.ajax({
-      url: `https://services.inplayer.com/items/${assetId}`,
-      success: function (resp) {
-        let buttonLabel = resp.metahash.preview_button_label;
-        currentButton.html(buttonLabel);
-      },
-    });
-  });
-
 
   $(".inplayer-paywall-logout").parent().hide();
   paywall.on("authenticated", function () {
