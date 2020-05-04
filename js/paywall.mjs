@@ -8,6 +8,20 @@ export function initializePaywall() {
         noInject: true,
       },
     },
+    {
+      id: 96126,
+      options: {
+        noPreview: true,
+        noInject: true,
+      },
+    },
+    {
+      id: 96335,
+      options: {
+        noPreview: true,
+        noInject: true,
+      },
+    }
   ]);
 };
 
@@ -39,15 +53,25 @@ paywall.on("access", (e, a) => {
 $(function () {
 
   // dynamic on click
-  $(".js-inplayer-donate-button").on('click', function () {
-    let currentAssetId = $(this).data('id');
+
+  $('body').click('.js-inplayer-donate-button', e => {
+    let currentAssetId = $(e.target).data('id');
+    // console.log($(e.target).data('id'))
     paywall.showPaywall({
       asset: {
         assetId: currentAssetId,
       },
     });
-
   });
+
+  // $(".js-inplayer-donate-button").on('click', function () {
+  //   let currentAssetId = $(this).data('id');
+  //   paywall.showPaywall({
+  //     asset: {
+  //       assetId: currentAssetId,
+  //     },
+  //   });
+  // });
 
   // add labels to the buttons from dashboard
   var donateButtons = $(".js-inplayer-donate-button");
