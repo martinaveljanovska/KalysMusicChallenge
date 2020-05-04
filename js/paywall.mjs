@@ -64,14 +64,6 @@ $(function () {
     });
   });
 
-  // $(".js-inplayer-donate-button").on('click', function () {
-  //   let currentAssetId = $(this).data('id');
-  //   paywall.showPaywall({
-  //     asset: {
-  //       assetId: currentAssetId,
-  //     },
-  //   });
-  // });
 
   // add labels to the buttons from dashboard
   var donateButtons = $(".js-inplayer-donate-button");
