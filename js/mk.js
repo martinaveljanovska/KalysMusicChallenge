@@ -1,4 +1,5 @@
 const mk = {
+    home: 'Почетна',
     bands: 'Бендови',
     musicSaves: "Музиката спасува",
     faq: 'Помош',
