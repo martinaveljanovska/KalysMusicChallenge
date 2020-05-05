@@ -37,39 +37,29 @@ $(function () {
 
     // LOAD DATA FOR PREVIEW ITEM (ITEM PAGE)
     let currentId = getParameterByName('id');
-    var buttonLabel = "init label";
     var current_lang = window.localStorage.getItem('inplayer_language') || 'en';
 
     if (currentId != null) {
-        let result = "";
-
-        let base = bandsData[currentId];
-        // console.log(typeof currentId)
-
-        let title = base.title,
+        let result = "",
+            base = bandsData[currentId],
+            title = base.title,
             id = base.assetId,
             video = base.video,
-            desc = "";
+            desc = "",
+            buttonLabel = "";
+
+        if (current_lang === 'en') {
+            desc = base.descriptionEN;
+            buttonLabel = base.btnEN;
+        } else if (current_lang === 'mk') {
+            desc = base.descriptionMK;
+            buttonLabel = base.btnMK;
+        }
+        result = createPreviewItem(id, title, video, desc, buttonLabel);
+        $('#preview-item').html(result);
+        console.log(`current asset: ${id} and label is: ${buttonLabel}`)
 
 
-
-        $.ajax({
-            url: `https://services.inplayer.com/items/${id}`,
-            success: function (resp) {
-                buttonLabel = resp.metahash.preview_button_label;
-                // console.log(`ova e label inside: ${buttonLabel}`)
-
-                if (current_lang === 'en') {
-                    desc = base.descriptionEN;
-                } else if (current_lang === 'mk') {
-                    desc = base.descriptionMK;
-                }
-                result = createPreviewItem(id, title, video, desc, buttonLabel);
-                $('#preview-item').html(result);
-                console.log(`current asset: ${id} and label is: ${buttonLabel}`)
-
-            }
-        });
 
     }
 
