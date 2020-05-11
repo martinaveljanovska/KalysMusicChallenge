@@ -1,6 +1,6 @@
-import { initializePaywall } from './paywall.mjs';
-import en from './en.mjs';
-import mk from './mk.mjs';
+import { initializePaywall } from './paywall.js';
+import en from './en.js';
+import mk from './mk.js';
 
 let paywall = initializePaywall();
 const languages = { en, mk };
