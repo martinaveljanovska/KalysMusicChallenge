@@ -1,4 +1,5 @@
-const en = {
+export default {
+    music: 'Music',
     home: 'Home',
     bands: 'Bands',
     musicSaves: 'Music Saves',
@@ -35,6 +36,4 @@ const en = {
     contemporary artists and their progress.`,
     aboutFive: `All together engaging the soul, one note at a time.`,
     titleMore: `Еngaging the soul, one note at a time`,
-
-
 }
