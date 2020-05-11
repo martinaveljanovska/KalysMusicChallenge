@@ -10,12 +10,11 @@ const createCard = (id, image, title) => {
     return output;
 }
 
-const createPreviewItem = (id, title, video, description, label) => {
-    var output = `${video}
+const createPreviewItem = (id, video, description, label) => {
+    var output = `<div class="video-wrap"><div class="responsive-iframe">${video}</div>
+    <button class="black-btn button js-inplayer-donate-button" data-id="${id}">${label}</button></div>
     <div class="preview-video-info">
-        <h2>${title}</h2>
         <p>${description}</p>
-        <button class="black-btn button js-inplayer-donate-button" data-id="${id}">${label}</button>
     </div>`;
     return output;
 }
@@ -39,6 +38,16 @@ $(function () {
     let currentId = getParameterByName('id');
     var current_lang = window.localStorage.getItem('inplayer_language') || 'en';
 
+    // ADD CURRENT LANG TO LANGUAGE SELECT BUTTON
+    $('#languageSelect-btn').html(current_lang.toUpperCase());
+
+    // change logo depending on the lang chosen
+    if (current_lang === 'en') {
+        $('img.logo').attr('src', 'img/logo_en_light.png');
+    } else if (current_lang === 'mk') {
+        $('img.logo').attr('src', 'img/logo_mk_light.png');
+    }
+
     if (currentId != null) {
         let result = "",
             base = bandsData[currentId],
@@ -47,19 +56,19 @@ $(function () {
             video = base.video,
             desc = "",
             buttonLabel = "";
+        $('#bandName').html(title);
 
         if (current_lang === 'en') {
+            $('img.logo').attr('src', 'img/logo_en_light.png');
             desc = base.descriptionEN;
             buttonLabel = base.btnEN;
         } else if (current_lang === 'mk') {
+            $('img.logo').attr('src', 'img/logo_mk_light.png');
             desc = base.descriptionMK;
             buttonLabel = base.btnMK;
         }
-        result = createPreviewItem(id, title, video, desc, buttonLabel);
+        result = createPreviewItem(id, video, desc, buttonLabel);
         $('#preview-item').html(result);
-        console.log(`current asset: ${id} and label is: ${buttonLabel}`)
-
-
 
     }
 
