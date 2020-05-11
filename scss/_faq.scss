@@ -1,6 +1,5 @@
 #faq {
-	// border-top: 1px solid #b8b8b8;
-	padding: 50px 0;
+	background-color: rgba(#fff, .05);
 
 	.heading {
 		text-align: center;
@@ -22,47 +21,14 @@
 			margin: 0 auto;
 
 			h3 {
-				// text-align: center;
-				// color: #222;
 				font-family: $font1;
-				// font-size: 1.4em;
 				font-weight: 700;
 			}
 
-			p {
-				color: #201f1f;
-			}
 
 			li {
 				margin: 0.5em 0;
-				border: 1px solid rgba(0, 0, 0, 0.28);
-
-				a.toggle {
-					display: block;
-					// border: 1px solid rgba(255, 255, 255, 0.15);
-					color: #201f1f;
-					text-decoration: none;
-					padding: 0.75em;
-					// border-radius: 0.3em;
-
-					-ms-transition: 0.2s all ease;
-					-moz-transition: 0.2s all ease;
-					-webkit-transition: 0.2s all ease;
-					transition: 0.2s all ease;
-
-					&:hover {
-						background: rgba(0, 0, 0, 0.05);
-					}
-
-					&.active {
-						border-bottom: 1px solid rgba(0, 0, 0, 0.28);
-						border-bottom-left-radius: 0;
-						border-bottom-right-radius: 0;
-						background-color: rgba(0, 0, 0, 0.03);
-						// color: #fff;
-						font-weight: 500;
-					}
-				}
+				border: 1px solid rgba(255, 255, 255, 0.28);
 
 				.inner {
 					padding: 1em;
@@ -72,8 +38,32 @@
 					border-top: none;
 					border-bottom-right-radius: 0.3em;
 					border-bottom-left-radius: 0.3em;
-					color: #201f1f;
+					color: #e4e4e4;
+					text-align: left;
 				}
+				a.toggle {
+					display: block;
+					text-align: left;
+					color: #ffffff;
+					text-decoration: none;
+					padding: 0.75em;
+					transition: 0.2s all ease;
+
+					&:hover {
+						background: rgba(255, 255, 255, 0.05);
+					}
+
+					&.active {
+						border-bottom: 1px solid rgba(255, 255, 255, 0.28);
+						border-bottom-left-radius: 0;
+						border-bottom-right-radius: 0;
+						background-color: rgba(255, 255, 255, 0.03);
+						// color: #fff;
+						font-weight: 500;
+					}
+				}
+
+				
 			}
 		}
 	} //faq

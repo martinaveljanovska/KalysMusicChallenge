@@ -1,3 +1,4 @@
+
 $(function () {
 	// accordion
 	$(".toggle").click(function (e) {
@@ -5,7 +6,6 @@ $(function () {
 		let inner = $(this).next(".inner");
 
 		if ($(this).hasClass("active")) {
-			inner.removeClass("show");
 			inner.slideUp(350);
 			$(this).removeClass("active");
 		} else {
@@ -14,13 +14,24 @@ $(function () {
 				.closest(".accordion")
 				.find(".inner")
 				.not(inner)
-				.removeClass("show")
 				.slideUp(350);
 			inner.slideDown(350);
-			inner.addClass("show");
 			$(this).addClass("active");
 		}
 	});
+
+	// languages picker
+	$('#languageSelect-btn').click(() => {
+		$('#dropdown').slideToggle('fast')
+
+	});
+	// close dropdown on click outside of it
+	$(document).click(e => {
+		let trigger = document.getElementById('languageSelect-btn');
+		if (trigger !== e.target) {
+			$('#dropdown').slideUp('fast');
+		}
+	})
 
 	// jQuery for page scrolling feature - requires jQuery Easing plugin
 	// $(".page-scroll").bind("click", function (event) {
@@ -59,15 +70,15 @@ $(function () {
 	// MOBILE MENU
 	var toggle = $("#toggle");
 
-	$("#menu a").on("click", function () {
-		if ($(window).width() < 790) {
+	if ($(window).width() < 790) {
+		$("#menu a").not('#languageSelect-btn').on("click", function () {
 			$("#toggle").click();
-		}
-	});
+
+		});
+	}
 
 	toggle.on("click", function () {
 		$(this).toggleClass("is-active");
-
 		$("#menu").addClass("flex");
 		$("#menu").toggleClass("slideInDown slideOutUp");
 		$("body").toggleClass("overflow");

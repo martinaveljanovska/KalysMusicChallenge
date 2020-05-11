@@ -1,5 +1,11 @@
+<<<<<<< HEAD:js/en.mjs
 export default {
     music: 'Music',
+=======
+const en = {
+    home: 'Home',
+    bands: 'Bands',
+>>>>>>> a7388fdcc11355c49039b92464a0d90962f34e0e:js/en.js
     musicSaves: 'Music Saves',
     faq: 'FAQ',
     contact: 'Contact',
