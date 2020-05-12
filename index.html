@@ -55,10 +55,10 @@
           <a href="#footer" class="page-scroll" data-lang="contact"></a>
         </li>
         <li id="languageSelect">
-          <a href="#/" id="languageSelect-btn"></a>
+          <a id="languageSelect-btn"></a>
           <ul id="dropdown">
-            <li><a href="#/" class="lang-select active">EN</a></li>
-            <li><a href="#/" class="lang-select">MK</a></li>
+            <li><a class="lang-select active">EN</a></li>
+            <li><a class="lang-select">MK</a></li>
           </ul>
         </li>
       </ul>
@@ -74,7 +74,6 @@
     <div class="header-content">
       <div class="text">
         <img class="logo" src="img/logo_en_light.png" alt="logo">
-        <p data-lang="titleMore"></p>
         <div class="social-icons">
           <a href="" target="_blank">
             <i class="fab fa-facebook-f"></i>
@@ -119,7 +118,7 @@
     <div class="faq-info">
       <ul class="accordion">
         <!-- about us  -->
-        <li>
+        <li class="border">
           <a href="#/" class="toggle" data-lang="aboutFaqTitle"></a>
           <div class="inner">
             <div class="question">
@@ -131,104 +130,77 @@
         </li>
 
         <!-- login and payment-->
-        <li>
+        <li class="border">
           <a href="#" class="toggle" data-lang="loginPayment"></a>
           <div class="inner">
-            <div class="question">
-              <h3>How do I create an account?</h3>
-              <p><strong>Step 1.</strong> Click the <strong>Login</strong> button or the content you wish to watch.</p>
-              <p><strong>Step 2.</strong>Select the <strong>Sign up</strong> option at the top of the form.
-              </p>
-              <p><strong>Step 3.</strong> Fill in the register form and click the
-                <strong>Register</strong> button.</p>
-              <p>You will receive an email confirmation for a successfully created account. To find out how to make a
-                purchase, proceed to the next section.</p>
-            </div>
 
             <div class="question">
-              <h3>How do I make a purchase?</h3>
-              <p><strong>Step 1.</strong> Click the content you wish to watch.</p>
-              <p><strong>Step 2.</strong> Enter your login credentials (email and password).</p>
-              <p><strong>Step 3.</strong> Select the desired price option and click <strong>Next</strong>.
-              </p>
-              <p><strong>Step 4.</strong> Enter the required information.</p>
-              <p><strong>Step 5.</strong> Click the <strong>Pay</strong> button.</p>
-              <p>You will immediately receive access and an email confirming your purchase. In case the page does not
-                load, please click the refresh button.</p>
+              <h3 data-lang="howToDonate"></h3>
+              <strong data-lang="stepOne"></strong>
+              <p data-lang="howToDonateOne"></p><br>
+              <strong data-lang="stepTwo"></strong>
+              <p data-lang="howToDonateTwo"></p><br>
+              <p data-lang="howToDonateThree"></p><br>
+              <strong data-lang="stepThree"></strong>
+              <p data-lang="howToDonateFour"></p><br> <br>
+              <p data-lang="howToDonateFive"></p><br>
             </div>
+
 
             <div class="question">
-              <h3>How do I login and watch?</h3>
-              <p><strong>Step 1.</strong> Click the <strong>Login</strong> button or the content you wish to watch.</p>
-              <p><strong>Step 2.</strong> On the form that appears, enter your login credentials (email and password).
-              </p>
-              <p><strong>Step 3.</strong> Click on <strong>Login.</strong></p>
-              <p>The page will then refresh and if you have already purchased, the paywall will disappear. If you
-                haven't purchased, please follow the guidelines above on <strong>How do I make a
-                  purchase.</strong></p>
+              <h3 data-lang="resetPass"></h3>
+              <strong data-lang="stepOne"></strong>
+              <p data-lang="resetPassOne"></p><br>
+              <strong data-lang="stepTwo"></strong>
+              <p data-lang="resetPassTwo"></p><br>
+              <strong data-lang="stepThree"></strong>
+              <p data-lang="resetPassThree"></p><br>
+              <strong data-lang="stepFour"></strong>
+              <p data-lang="resetPassFour"></p><br>
+              <strong data-lang="stepFive"></strong>
+              <p data-lang="resetPassFive"></p><br>
+              <strong data-lang="stepSix"></strong>
+              <p data-lang="resetPassSix"></p><br>
+              <strong data-lang="stepSeven"></strong>
+              <p data-lang="resetPassSeven"></p><br><br>
+              <p data-lang="resetPassEight"></p>
             </div>
-
-            <div class="question">
-              <h3>How do I reset my password?</h3>
-              <p><strong>Step 1.</strong> Navigate to the login form by clicking on the
-                <strong>Login</strong> button or on the content you wish to watch.</p>
-              <p><strong>Step 2.</strong> Click the <strong>Forgot Password</strong> link below the password field on
-                the login form.</p>
-              <p><strong>Step 3.</strong> Enter your <strong>email address</strong> and click the
-                <strong>Reset</strong> button.</p>
-              <p><strong>Step 4.</strong> A new window will pop up. Make sure to leave it open.</p>
-              <p><strong>Step 5.</strong> Check your email. You will receive a <strong>password reset
-                  token</strong>. If you don’t see it in your Inbox, make sure to check your Spam and Trash folders.</p>
-              <p><strong>Step 6.</strong> Copy the <strong>Token</strong> and paste it in the first field of the window
-                that popped up previously.</p>
-              <p><strong>Step 7.</strong> Enter your new password in the second and third field.</p>
-              <p><strong>Step 8.</strong> Click <strong>Set</strong> </p>
-              <p>If you do not receive a password reset token please contact us at
-                <a>support@inplayer.com.</a></p>
-            </div>
-
-            <div class="question">
-              <h3>Can I watch on multiple devices with my account?</h3>
-              <p>Yes. You can watch on multiple devices at the same time using the same account.</p>
-            </div>
-
           </div>
         </li>
 
         <!-- other -->
-        <li>
+        <li class="border other">
           <a href="#" class="toggle" data-lang="other"></a>
           <div class="inner">
             <div class="question">
-              <h3>Is payment on your site secure?</h3>
-              <p>Yes! All sensitive data we handle is sent via SSL. </p>
-              <p>This is not indicated as a site-wide use of HTTPS as it is not; it’s purely the calls that need to be
-                made via HTTPS such as private user details or payment information.</p>
-              <p>The security of the site is visible using any website inspection tool.</p>
+              <h3 data-lang="secure"></h3>
+              <p data-lang="secureOne"></p><br><br>
+              <p data-lang="secureTwo"></p><br><br>
+              <p data-lang="secureThree"></p>
             </div>
 
             <div class="question">
-              <h3>Why was my credit card declined?</h3>
-              <p>Credit or debit card can be declined in the following cases:</p>
-              <p>1. Lack of funding.</p>
-              <p>2. The fraud control system flagged the user as suspicious.</p>
-              <p>Please contact your bank.</p>
-              <p>For additional questions or assistance please contact us at <a
-                  href="mailto:support@inplayer.com">support@inplayer.com.</a></p>
+              <h3 data-lang="creditCard"></h3>
+              <p data-lang="creditCardOne"></p><br><br>
+              <ol>
+                <li data-lang="creditCardTwo"></li>
+                <li data-lang="creditCardThree"></li>
+              </ol><br>
+              <p data-lang="creditCardFour"></p><br><br>
+              <p data-lang="creditCardFive"></p>
             </div>
 
             <div class="question">
-              <h3>What is a CVV number and how do I find it?</h3>
-              <p>The CVV Number (“Card Verification Value”) is the <b>3 digit number</b> located at the back of your
-                VISA®, MasterCard® and Discover® branded credit and debit cards. On your American Express® branded
-                credit or debit card it is a 4 digit numeric code.</p>
+              <h3 data-lang="cvv"></h3>
+              <p data-lang="cvvOne"></p>
             </div>
 
             <div class="question">
-              <h3>Where can I find your Terms and Conditions?</h3>
-              <p>You can find InPlayer’s terms and conditions on the following link:</p>
-              <p> <a class="link" href="http://inplayer.com/terms/" target="_blank">http://inplayer.com/terms/ </a> </p>
-              <p>By creating an account you automatically agree to the Terms & Conditions.</p>
+              <h3 data-lang="terms"></h3>
+              <p data-lang="termsOne"></p><br>
+              <p> <a class="link" href="http://inplayer.com/terms/" target="_blank" data-lang="termsLink"> </a> </p>
+              <br><br>
+              <p data-lang="termsTwo"></p>
             </div>
           </div>
         </li>
@@ -246,9 +218,9 @@
 
   <footer id="footer" class="container">
     <div>
-      <h2>Let's get in touch</h2>
-      <p>For all payment and access related issues, please visit our <a class="link"
-          href="https://support.inplayer.com/" target="_blank">Support Center</a>. </p>
+      <h2 data-lang="footerOne"></h2>
+      <p data-lang="footerTwo" class="inline"></p> <a class="link" href="https://support.inplayer.com/" target="_blank"
+        data-lang="supportLink"></a>
     </div>
     <div class="txt-right">
       <div class="social-icons">
@@ -284,8 +256,8 @@
 
   <!-- ES6 modules -->
   <script type="module" src="js/paywall.js"></script>
-  <script type="module" src="js/languages.js"></script>
   <script type="module" src="js/grid-template.js"></script>
+  <script type="module" src="js/languages.js"></script>
 </body>
 
 </html>
