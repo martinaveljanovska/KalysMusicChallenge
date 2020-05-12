@@ -12,7 +12,7 @@ const createCard = (id, image, title) => {
 
 const createPreviewItem = (id, video, description, label) => {
     var output = `<div class="video-wrap"><div class="responsive-iframe">${video}</div>
-    <button class="black-btn button js-inplayer-donate-button" data-id="${id}">${label}</button></div>
+    <a class="black-btn button js-inplayer-donate-button" data-id="${id}">${label}</a></div>
     <div class="preview-video-info">
         <p>${description}</p>
     </div>`;
@@ -35,19 +35,17 @@ $(function () {
     });
 
     // LOAD DATA FOR PREVIEW ITEM (ITEM PAGE)
+
+
+
+
+
+
+
+
+})
+export function initCreatePreviewItem(lang) {
     let currentId = getParameterByName('id');
-    var current_lang = window.localStorage.getItem('inplayer_language') || 'en';
-
-    // ADD CURRENT LANG TO LANGUAGE SELECT BUTTON
-    $('#languageSelect-btn').html(current_lang.toUpperCase());
-
-    // change logo depending on the lang chosen
-    if (current_lang === 'en') {
-        $('img.logo').attr('src', 'img/logo_en_light.png');
-    } else if (current_lang === 'mk') {
-        $('img.logo').attr('src', 'img/logo_mk_light.png');
-    }
-
     if (currentId != null) {
         let result = "",
             base = bandsData[currentId],
@@ -58,12 +56,10 @@ $(function () {
             buttonLabel = "";
         $('#bandName').html(title);
 
-        if (current_lang === 'en') {
-            $('img.logo').attr('src', 'img/logo_en_light.png');
+        if (lang === 'en') {
             desc = base.descriptionEN;
             buttonLabel = base.btnEN;
-        } else if (current_lang === 'mk') {
-            $('img.logo').attr('src', 'img/logo_mk_light.png');
+        } else if (lang === 'mk') {
             desc = base.descriptionMK;
             buttonLabel = base.btnMK;
         }
@@ -71,5 +67,4 @@ $(function () {
         $('#preview-item').html(result);
 
     }
-
-})
+}
