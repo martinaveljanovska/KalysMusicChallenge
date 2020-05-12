@@ -20,7 +20,6 @@ const setLang = lang => {
 $('.lang-select').on('click', e => {
   lang = e.target.innerHTML.toLowerCase();
   paywall.setLanguage(lang);
-  // window.location.reload()
 });
 
 paywall.on('language', (e, data) => {

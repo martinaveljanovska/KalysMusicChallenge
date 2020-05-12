@@ -19,31 +19,6 @@ const createPreviewItem = (id, video, description, label) => {
     return output;
 }
 
-
-$(function () {
-
-    //  CREATE CARDS FROM DATA
-    let result = "";
-    bandsData.forEach(e => {
-        let id = e.id - 1,
-            title = e.title,
-            image = e.image;
-
-        result += createCard(id, image, title);
-        // console.log(result)
-        $('#package-items').html(result)
-    });
-
-    // LOAD DATA FOR PREVIEW ITEM (ITEM PAGE)
-
-
-
-
-
-
-
-
-})
 export function initCreatePreviewItem(lang) {
     let currentId = getParameterByName('id');
     if (currentId != null) {
@@ -68,3 +43,20 @@ export function initCreatePreviewItem(lang) {
 
     }
 }
+
+
+$(function () {
+
+    //  CREATE CARDS FROM DATA
+    let result = "";
+    bandsData.forEach(e => {
+        let id = e.id - 1,
+            title = e.title,
+            image = e.image;
+
+        result += createCard(id, image, title);
+        // console.log(result)
+        $('#package-items').html(result)
+    });
+
+})
