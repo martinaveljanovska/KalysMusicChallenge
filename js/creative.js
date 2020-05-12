@@ -21,7 +21,8 @@ $(function () {
 	});
 
 	// languages picker
-	$('#languageSelect-btn').click(() => {
+	$('#languageSelect-btn').click((e) => {
+		e.stopPropagation();
 		$('#dropdown').slideToggle('fast')
 
 	});
