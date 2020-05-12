@@ -61,6 +61,7 @@ section{
 	font-size: inherit;
 	font-weight: 700;
 	background-color: #fff;
+	color: #000;
 	font-family: $font2;
 	margin: 10px;
 
@@ -71,6 +72,10 @@ section{
 	}
 } // button
 
+a{
+
+	cursor: pointer;
+}
 
 a.link {
 	color: var(--primary);

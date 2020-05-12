@@ -83,11 +83,12 @@ body {
 			} // ul
 
 			#languageSelect{
-				margin: 0;
+				padding: 0;
 				position: relative;
 
 				#languageSelect-btn{
 					position: relative;
+					padding: 5px 15px;
 
 					&::after{
 						position: absolute;
@@ -96,8 +97,8 @@ body {
 						border-top: 2px solid #fff;
 						width: 5px;
 						height: 5px;
-						right: -12px;
-    					top: 9px;
+						right: 0px;
+    					top: 13px;
 						transform: rotate(-136deg);
 					}
 				}
@@ -154,11 +155,11 @@ body {
 		
 				#languageSelect{
 					border-left: 1px solid #fff;
-					padding-left: 15px;
+					margin: 0 !important;
 
 					#languageSelect-btn{
 						&::after{
-							top: 6px;
+							top: 11px;
 						}
 					}
 		
@@ -185,6 +186,8 @@ body {
 } // nav-wrapper
 
 	@media (max-width: 789px) {
+
+
 		#nav-wrapper {
 			padding: 0;
 
