@@ -5,12 +5,11 @@ import mk from './mk.js';
 
 let paywall = initializePaywall();
 const languages = { en, mk };
-let lang = "";
 
 const setLang = lang => {
-  const all = document.querySelectorAll('[data-lang]');
+  const allNodes = document.querySelectorAll('[data-lang]');
 
-  all.forEach(element => {
+  allNodes.forEach(element => {
     const textKey = element.getAttribute('data-lang');
     element.textContent = languages[lang][textKey];
   });
@@ -18,15 +17,12 @@ const setLang = lang => {
 
 // usage
 $('.lang-select').on('click', e => {
-  lang = e.target.innerHTML.toLowerCase();
-  paywall.setLanguage(lang);
+  paywall.setLanguage(e.target.innerHTML.toLowerCase());
 });
 
-paywall.on('language', (e, data) => {
-  lang = (e.data || data).language;
-  setLang(lang);
-
-  initCreatePreviewItem(lang);
+paywall.on('language', (e, { language }) => {
+  setLang(language);
+  initCreatePreviewItem(language);
 
   // ADD CURRENT LANG TO LANGUAGE SELECT BUTTON
   var current_lang = window.localStorage.getItem('inplayer_language') || 'en';
