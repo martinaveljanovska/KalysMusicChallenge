@@ -145,7 +145,7 @@ body {
 				}
 			}
 
-			@media (min-width: 790px) {
+			@media (min-width: 650px) {
 				#menu.animated {
 					-ms-animation: none;
 					-moz-animation: none;
@@ -176,18 +176,15 @@ body {
 			}
 		} // nav-container
 
-		@media (min-width: 790px) {
+		@media (min-width: 650px) {
 			.hamburger {
 				display: none;
 			}
 		}
 	
-	
 } // nav-wrapper
 
-	@media (max-width: 789px) {
-
-
+	@media (max-width: 649px) {
 		#nav-wrapper {
 			padding: 0;
 
