@@ -9,7 +9,7 @@ export function initializePaywall() {
       let div = document.createElement("div");
       div.classList.add("inplayer-paywall");
       div.id = id;
-      document.body.prepend(div);
+      document.body.append(div);
     }
     return new InplayerPaywall("1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b", [
       {
@@ -40,7 +40,6 @@ $(function () {
   // dynamic on click
   $("body").on("click", ".js-inplayer-donate-button", e => {
     let currentAssetId = $(e.target).data("id");
-    // console.log($(e.target).data('id'))
     paywall.showPaywall({
       asset: {
         assetId: currentAssetId
