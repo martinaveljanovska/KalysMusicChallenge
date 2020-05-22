@@ -1,31 +1,34 @@
 
+import { getParameterByName } from "./helpers.js";
+
+var currentAssetId = getParameterByName('asset');
+
 export function initializePaywall() {
-  return new InplayerPaywall("1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b", [
-    {
-      id: 97121,
-      options: {
-        noPreview: true,
-        noInject: true,
-      },
-    },
-    {
-      id: 96126,
-      options: {
-        noPreview: true,
-        noInject: true,
-      },
-    },
-    {
-      id: 96335,
-      options: {
-        noPreview: true,
-        noInject: true,
-      },
-    }
-  ]);
+  if (currentAssetId) {
+    return new InplayerPaywall("1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b", [
+      {
+        id: currentAssetId,
+        options: {
+          noPreview: true,
+          noInject: true,
+        },
+      }
+    ]);
+  } else {
+    return new InplayerPaywall("1f4cfc0e-7bfb-4aeb-badb-0197da2eba6b", [
+      {
+        id: 97121,
+        options: {
+          noPreview: true,
+          noInject: true,
+        },
+      }
+    ]);
+  }
 };
 
 let paywall = initializePaywall();
+
 
 const checkAccess = (a) => {
   if (a.hasAccess) {
@@ -52,8 +55,12 @@ paywall.on("access", (e, a) => {
 
 $(function () {
 
-  // dynamic on click
+  // add dynamic asset div, on item page
+  if (currentAssetId) {
+    $('body').append(`<div class="inplayer-paywall" id="inplayer-${currentAssetId}"></div>`);
+  }
 
+  // dynamic on click
   $('body').on('click', '.js-inplayer-donate-button', e => {
     let currentAssetId = $(e.target).data('id');
     // console.log($(e.target).data('id'))
@@ -70,10 +77,6 @@ $(function () {
     $(".inplayer-paywall-logout").parent().show();
   });
 
-  paywall.on("logout", function () {
-    location.reload();
-  });
-  // TAKE ASSETS INFO
 }); // end
 
 
