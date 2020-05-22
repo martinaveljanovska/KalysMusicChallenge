@@ -4,8 +4,8 @@ import { getParameterByName } from "./helpers.js"
 
 
 // CREATE ASSET
-const createCard = (id, image, title) => {
-    var output = `<div class="package-item" data-id="${id}"><div class="content" style="background-image:url(${image})"><a href="./item.html?id=${id}" class="overlay-link"></a></div><h3 class="name">${title}</h3></div>`;
+const createCard = (id, assetId, image, title) => {
+    var output = `<div class="package-item" data-id="${id}"><div class="content" style="background-image:url(${image})"><a href="./item.html?id=${id}&asset=${assetId}" class="overlay-link"></a></div><h3 class="name">${title}</h3></div>`;
 
     return output;
 }
@@ -51,11 +51,10 @@ $(function () {
     let result = "";
     bandsData.forEach(e => {
         let id = e.id - 1,
+            assetId = e.assetId,
             title = e.title,
             image = e.image;
-
-        result += createCard(id, image, title);
-        // console.log(result)
+        result += createCard(id, assetId, image, title);
         $('#package-items').html(result)
     });
 
