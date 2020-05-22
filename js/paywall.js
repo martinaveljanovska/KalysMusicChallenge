@@ -1,7 +1,7 @@
-
 import { getParameterByName } from "./helpers.js";
 
-var currentAssetId = getParameterByName('asset');
+var currentAssetId = getParameterByName("asset");
+let paywall = null;
 
 export function initializePaywall() {
   if (currentAssetId) {
@@ -10,8 +10,8 @@ export function initializePaywall() {
         id: currentAssetId,
         options: {
           noPreview: true,
-          noInject: true,
-        },
+          noInject: true
+        }
       }
     ]);
   } else {
@@ -20,17 +20,14 @@ export function initializePaywall() {
         id: 97121,
         options: {
           noPreview: true,
-          noInject: true,
-        },
+          noInject: true
+        }
       }
     ]);
   }
-};
+}
 
-let paywall = initializePaywall();
-
-
-const checkAccess = (a) => {
+const checkAccess = a => {
   if (a.hasAccess) {
     let assetId = a.asset.id;
     let accessedAsset = $("body").find(`[data-id="${assetId}"]`);
@@ -46,38 +43,41 @@ const reloadAccess = a => {
   }
 };
 
-paywall.on("access", (e, a) => {
-  checkAccess(a);
-  setTimeout(() => {
-    reloadAccess(a);
-  }, 60000);
-});
-
-$(function () {
-
+$(function() {
   // add dynamic asset div, on item page
   if (currentAssetId) {
-    $('body').append(`<div class="inplayer-paywall" id="inplayer-${currentAssetId}"></div>`);
+    $("body").append(
+      `<div class="inplayer-paywall" id="inplayer-${currentAssetId}"></div>`
+    );
   }
+  paywall = initializePaywall();
+  paywall.on("access", (e, a) => {
+    checkAccess(a);
+    setTimeout(() => {
+      reloadAccess(a);
+    }, 60000);
+  });
 
   // dynamic on click
-  $('body').on('click', '.js-inplayer-donate-button', e => {
-    let currentAssetId = $(e.target).data('id');
+  $("body").on("click", ".js-inplayer-donate-button", e => {
+    let currentAssetId = $(e.target).data("id");
     // console.log($(e.target).data('id'))
     paywall.showPaywall({
       asset: {
-        assetId: currentAssetId,
-      },
+        assetId: currentAssetId
+      }
     });
   });
 
-  $(".inplayer-paywall-logout").parent().hide();
-  paywall.on("authenticated", function () {
-    $(".inplayer-paywall-login").parent().hide();
-    $(".inplayer-paywall-logout").parent().show();
+  $(".inplayer-paywall-logout")
+    .parent()
+    .hide();
+  paywall.on("authenticated", function() {
+    $(".inplayer-paywall-login")
+      .parent()
+      .hide();
+    $(".inplayer-paywall-logout")
+      .parent()
+      .show();
   });
-
 }); // end
-
-
-
