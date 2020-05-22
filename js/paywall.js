@@ -33,30 +33,10 @@ export function initializePaywall() {
   }
 }
 
-const checkAccess = a => {
-  if (a.hasAccess) {
-    let assetId = a.asset.id;
-    let accessedAsset = $("body").find(`[data-id="${assetId}"]`);
-    accessedAsset.hide();
-  }
-};
-
-const reloadAccess = a => {
-  if (a.hasAccess === false) {
-    let assetId = a.asset.id;
-    let accessedAsset = $("body").find(`[data-id="${assetId}"]`);
-    accessedAsset.show();
-  }
-};
 
 let paywall = initializePaywall();
-paywall.on("access", (e, a) => {
-  checkAccess(a);
-  setTimeout(() => {
-    reloadAccess(a);
-  }, 60000);
-});
-$(function() {
+
+$(function () {
   // dynamic on click
   $("body").on("click", ".js-inplayer-donate-button", e => {
     let currentAssetId = $(e.target).data("id");
@@ -71,7 +51,7 @@ $(function() {
   $(".inplayer-paywall-logout")
     .parent()
     .hide();
-  paywall.on("authenticated", function() {
+  paywall.on("authenticated", function () {
     $(".inplayer-paywall-login")
       .parent()
       .hide();
