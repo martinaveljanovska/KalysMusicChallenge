@@ -97,4 +97,28 @@ export default [
         "btnEN": "Donate for Agni Avshar",
         "btnMK": "Донирај за Agni Avshar"
     },
+    {
+        "id": 8,
+        "assetId": 102345,
+        "title": 'Fusnota',
+        "image": 'img/thumb/fusnota.jpg',
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/oI5uT84Jyxk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+        "descriptionEN": `Skopje-based Fusnota have been making music since late 2001, despite nobody asking them to (and in fact several people asking them to stop). Their prefered way of describing their sound is &quot;punks who think they&#39;re metalheads, grown up on mainstream music, trying to play art rock but unable to stay away from distortion long enough.&quot; <br><br>
+        Despite all odds, Fusnota has two albums: an untitled one from 2010, You Are Empty [2013], and two EPs: Cabal [2016] and ER [2018]. They will presumably continue churning out more, as long as the band member's health can support their ambitions.`,
+        "descriptionMK": `Скопските Fusnota создаваат музика од крајот на 2001 година без никој да им каже (а и со неколку луѓе што им викаат да престанат). Звукот си ја опишуваат како &quot;панкери што си мислат дека се металци а се растени на мејнстрим музика пробуваат да свират арт рок ама не можат доволно да се воздржат од дисторзија.&quot;<br><br>
+        И покрај сите напори за спротивното, Fusnota имаат два албуми: еден неименуван од 2010 и You Are Empty од 2013, како и две EP изданија: Кабал [2016] и ЕР [2018]. Се очекува да продолжат да вадат уште изданија сѐ додека здравствената состојба на членовите на бендот ги поддржува нивните амбиции.`,
+        "btnEN": "Donate for Fusnota",
+        "btnMK": "Донирај за Fusnota"
+    },
+    {
+        "id": 9,
+        "assetId": 102346,
+        "title": 'Kaláta',
+        "image": 'img/thumb/kalata.jpg',
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/32SSghg4Kxg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+        "descriptionEN": `Kaláta is a band-project that was formed in 2019 by Simeon Angelovski and Minela Bogdanovic and performs World Music/ New age with accent of the macedonian traditional vibe.`,
+        "descriptionMK": `КАЛÁТА е дуо т.е бенд-проект, составен од Симеон Ангеловски и Минела Богдановиќ во 2018 година кој што создава авторска музика вклучувајќи и преработки на Македонски традиционални песни. Жанр - World Music/ New Age.`,
+        "btnEN": "Donate for Kaláta",
+        "btnMK": "Донирај за Kaláta"
+    },
 ];
