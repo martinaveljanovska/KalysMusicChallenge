@@ -1,5 +1,5 @@
 
-import bandsData from './bands.js';
+import artistsData from './artists.js';
 import { getParameterByName } from "./helpers.js"
 
 
@@ -23,7 +23,7 @@ export function initCreatePreviewItem(lang) {
     let currentId = getParameterByName('id');
     if (currentId != null) {
         let result = "",
-            base = bandsData[currentId],
+            base = artistsData[currentId],
             title = base.title,
             id = base.assetId,
             video = base.video,
@@ -49,7 +49,7 @@ $(function () {
 
     //  CREATE CARDS FROM DATA
     let result = "";
-    bandsData.forEach(e => {
+    artistsData.forEach(e => {
         let id = e.id - 1,
             assetId = e.assetId,
             title = e.title,

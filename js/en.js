@@ -1,7 +1,7 @@
 export default {
     music: 'Music',
     home: 'Home',
-    bands: 'Bands',
+    artists: 'Artists',
     musicSaves: 'Music Saves',
     faq: 'FAQ',
     contact: 'Contact',
@@ -78,5 +78,5 @@ export default {
     footerOne: `Let's get in touch`,
     footerTwo: `For all payment and access related issues, please visit our`,
     supportLink: `Support Center`,
-
+    contactUs: `Would you like to be a part of the Music Saves project? Contact us at `
 }

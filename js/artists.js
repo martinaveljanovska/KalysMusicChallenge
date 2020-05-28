@@ -30,8 +30,10 @@ export default [
         "title": 'Zulu 3.4',
         "image": 'img/thumb/zulu.jpg',
         "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/Of8oe4FdwYk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
-        "descriptionEN": `Zulu 3.4 is an instrumental band from Skopje, founded in March 2018 by three young jazz enthusiasts, whose goal was to create a unique sound through fusion of different styles and bring freshness to the Macedonian music stage. In March 2019 they have promoted their  debut album &quot;FM to AM&quot;, which was recorded at the Alshar studio. Their second album &quot;Expandability&quot; was released and promoted in March 2020.  <br>  <br>Zulu 3.4 consists of three members:  <br>Damjan Danevski – drums (Primordial Soup, Skopje Drum Talks)  <br>Mario Simonovski – guitar (Pluto’s Doubts)  <br> Martin Dzhorlev – keyboards (Martin Djorlev)`,
-        "descriptionMK": `Зулу 3.4 е инструментален бенд од Скопје, формиран во март 2018 година. Членови на бендот се музички уметници во сферата на џез музиката, чија цел е преку фузија на различни стилови да создадат уникатен звук и да внесат свежина на македонската музичка сцена. Во март 2019 тие го промовираа својот деби албум „FM to AM”, снимен во студиото Алшар. Вториот албум „Expandability“ беше издаден во март 2020. <br> <br> Зулу 3.4 се состои од три члена:  <br>Дамјан Даневски - тапани (Примордијална Манџа, Skopje Drum Talks) <br> Марио Симоновски - гитара (Pluto’s Doubts)  <br> Мартин Џорлев – клавијатури (Martin Djorlev)`,
+        "descriptionEN": `Zulu 3.4 is an instrumental band from Skopje, founded in March 2018 by three young jazz enthusiasts, whose goal was to create a unique sound through fusion of different styles and bring freshness to the Macedonian music stage. In March 2019 they have promoted their  debut album &quot;FM to AM&quot;, which was recorded at the Alshar studio. Their second album &quot;Expandability&quot; was released and promoted in March 2020.  <br>  <br>Zulu 3.4 consists of three members:  <br>Damjan Danevski – drums (Primordial Soup, Skopje Drum Talks)  <br>Mario Simonovski – guitar (Pluto’s Doubts)  <br> Martin Dzhorlev – keyboards (Martin Djorlev) <br><br>
+        <a class="link" href="https://zulu34.com/" target="_blank">Official website</a>`,
+        "descriptionMK": `Зулу 3.4 е инструментален бенд од Скопје, формиран во март 2018 година. Членови на бендот се музички уметници во сферата на џез музиката, чија цел е преку фузија на различни стилови да создадат уникатен звук и да внесат свежина на македонската музичка сцена. Во март 2019 тие го промовираа својот деби албум „FM to AM”, снимен во студиото Алшар. Вториот албум „Expandability“ беше издаден во март 2020. <br> <br> Зулу 3.4 се состои од три члена:  <br>Дамјан Даневски - тапани (Примордијална Манџа, Skopje Drum Talks) <br> Марио Симоновски - гитара (Pluto’s Doubts)  <br> Мартин Џорлев – клавијатури (Martin Djorlev) <br><br>
+        <a class="link" href="https://zulu34.com/" target="_blank">Official website</a>`,
         "btnEN": "Donate for Zulu 3.4",
         "btnMK": "Донирај за Zulu 3.4"
     },
@@ -120,5 +122,32 @@ export default [
         "descriptionMK": `КАЛÁТА е дуо т.е бенд-проект, составен од Симеон Ангеловски и Минела Богдановиќ во 2018 година кој што создава авторска музика вклучувајќи и преработки на Македонски традиционални песни. Жанр - World Music/ New Age.`,
         "btnEN": "Donate for Kaláta",
         "btnMK": "Донирај за Kaláta"
+    },
+    {
+        "id": 10,
+        "assetId": 102690,
+        "title": 'Polina&Ivan',
+        "image": 'img/thumb/polina-ivan.jpg',
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/2Tx7JeeNw9k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+        "descriptionEN": `Polina Taseva is a 27-year-old opera singer with a master&#39;s degree from the Musical Academy in Skopje
+        Macedonia. Besides the opera, she is actively engaged in popular singing as well, by performing in the cities all over the country as a lead vocal in the cover band - Higher Ground. Her experience includes many choir performances, competitions in classical music, so as guest appearances out of Macedonia. She has played roles in many opera performances and has been part of opera shows for children,  concerts, workshops, etc. An important single that can be mentioned is the originally written song named &quot;Broken&quot; in collaboration with Tommy Tassev. She has been performing during the years as a  back vocalist for Next Time, Lozano, and other artists. <br><br>
+        Ivan Petrovski is a 27-year music arranger that has graduated at the Musical Academy in Skopje Macedonia, guitarist, and composer. Having been fascinated by the guitar since his earliest days, he learned to play by himself, therefore continued studying music and performing professionally. He has played on venues such as MC Gallery - New York/USA, International Music Festival - Lanzhou/China, Landaa Giraavaru - Maldives, Jazz, and Blues Festival - Kosovska Mitrovica, Ohrid Summer Festival 2017/2018 - Macedonia. He is a guitarist member in the bands: D.S.H., 3ject, MusaiQ, Higher Ground.`,
+        "descriptionMK": `Полина Тасева е 27 годишна магистрирана оперска пејачка на Факултетот за Музичка Уметност во Скопје. Покрај операта паралелно се занимава и со забавното пеење, настапувајки низ градовите  во Македонија како главен вокал на бендот Higher Ground. Нејзиното искуство опфаќа   многубројни хорски настапи, натпревари во класичната музика како и гостувања надвор од  земјата. Има одиграно улоги во оперски претстави и претстави за деца, концертни изведби,  семинари и др. Како позначајна се издовјува нејзината соработка со Томи Тасев, авторскиот сингл &quot;Broken&quot;. Како придружен вокал настапува со Некст Тајм, Лозано и соработува со други македонски артисти. <br><br>
+        Иван Петровски е 27 годишен дипломиран аранжер на Факултетот за Музичка Уметност во Скопје, Македонија, гитарист и композитор. Тој е самоук гитарист кој првично самостојно ги развива своите вештини,a потоа продолжува професионално да се занимава со музика. Има настапувано на многубројни концерти и фестивали како: MC Gallery - ЊуЈорк/САД, International Music Festival - Ланжу/Кина, Landaa Giraavaru - Малдиви, Jazz and Blues Festival - Косовска Митровица, Охридско Лето 2017/2018 - Македонија. Тој е гитарист во бендовите: D.S.H., 3ject, MusaiQ, HigherGround.`,
+        "btnEN": "Donate for Polina&Ivan",
+        "btnMK": "Донирај за Polina&Ivan"
+    },
+    {
+        "id": 11,
+        "assetId": 102693,
+        "title": 'Ringtones',
+        "image": 'img/thumb/ringtones.jpg',
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/-PDBUYyEDCI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+        "descriptionEN": `The Ringtones is a cover band based in Skopje, North Macedonia, formed in 2015. The band currently consists of lead vocalist Dina Jovanovska, Simon Peoski on the guitar and backing vocals, bassist Darko Fotinovski, guitarist Nevrus Bajram and drummer Kristijan Lafazanovski. We like covering pop, rock, rock
+        'n roll, retro and disco hits from the 80's and 90's, as well as some brand new music that we find interesting to play. So far we've played in many different clubs, bars and other places around the country as well as festivals, humanitary events, weddings and private parties.`,
+        "descriptionMK": `The Ringtones е музички состав кој што изведува разновиден странски но и македонски репертоар од забавни поп, рок, рокенрол, диско и ретро хитови. Составот е оформен во 2015 година и во него членуваат: Дина Јовановска (вокал), Симон Пеоски (гитара и вокал), Дарко Фотиновски (бас гитара), Кристијан Лафазановски (тапани) и Неврус Бајрам (гитара). Имаат настапувано на голем број манифестации од отворен и затворен карактер низ голем број на ноќни клубови, јавни
+        простори на територијата на Република Северна Македонија.`,
+        "btnEN": "Donate for Ringtones",
+        "btnMK": "Донирај за Ringtones"
     },
 ];
