@@ -131,23 +131,62 @@ export default [
         "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/2Tx7JeeNw9k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
         "descriptionEN": `Polina Taseva is a 27-year-old opera singer with a master&#39;s degree from the Musical Academy in Skopje
         Macedonia. Besides the opera, she is actively engaged in popular singing as well, by performing in the cities all over the country as a lead vocal in the cover band - Higher Ground. Her experience includes many choir performances, competitions in classical music, so as guest appearances out of Macedonia. She has played roles in many opera performances and has been part of opera shows for children,  concerts, workshops, etc. An important single that can be mentioned is the originally written song named &quot;Broken&quot; in collaboration with Tommy Tassev. She has been performing during the years as a  back vocalist for Next Time, Lozano, and other artists. <br><br>
-        Ivan Petrovski is a 27-year music arranger that has graduated at the Musical Academy in Skopje Macedonia, guitarist, and composer. Having been fascinated by the guitar since his earliest days, he learned to play by himself, therefore continued studying music and performing professionally. He has played on venues such as MC Gallery - New York/USA, International Music Festival - Lanzhou/China, Landaa Giraavaru - Maldives, Jazz, and Blues Festival - Kosovska Mitrovica, Ohrid Summer Festival 2017/2018 - Macedonia. He is a guitarist member in the bands: D.S.H., 3ject, MusaiQ, Higher Ground.`,
+        Ivan Petrovski is a 27-year music arranger that has graduated at the Musical Academy in Skopje Macedonia, guitarist, and composer. Having been fascinated by the guitar since his earliest days, he learned to play by himself, therefore continued studying music and performing professionally. He has played on venues such as MC Gallery - New York/USA, International Music Festival - Lanzhou/China, Landaa Giraavaru - Maldives, Jazz, and Blues Festival - Kosovska Mitrovica, Ohrid Summer Festival 2017/2018 - Macedonia. In the field of pop-music he is actively engaged in arranging and song writing, as a guitarist he had recorded 6 albums and he plays in the following bands: D.S.H., 3ject, MusaiQ, Higher Ground.`,
         "descriptionMK": `Полина Тасева е 27 годишна магистрирана оперска пејачка на Факултетот за Музичка Уметност во Скопје. Покрај операта паралелно се занимава и со забавното пеење, настапувајки низ градовите  во Македонија како главен вокал на бендот Higher Ground. Нејзиното искуство опфаќа   многубројни хорски настапи, натпревари во класичната музика како и гостувања надвор од  земјата. Има одиграно улоги во оперски претстави и претстави за деца, концертни изведби,  семинари и др. Како позначајна се издовјува нејзината соработка со Томи Тасев, авторскиот сингл &quot;Broken&quot;. Како придружен вокал настапува со Некст Тајм, Лозано и соработува со други македонски артисти. <br><br>
-        Иван Петровски е 27 годишен дипломиран аранжер на Факултетот за Музичка Уметност во Скопје, Македонија, гитарист и композитор. Тој е самоук гитарист кој првично самостојно ги развива своите вештини,a потоа продолжува професионално да се занимава со музика. Има настапувано на многубројни концерти и фестивали како: MC Gallery - ЊуЈорк/САД, International Music Festival - Ланжу/Кина, Landaa Giraavaru - Малдиви, Jazz and Blues Festival - Косовска Митровица, Охридско Лето 2017/2018 - Македонија. Тој е гитарист во бендовите: D.S.H., 3ject, MusaiQ, HigherGround.`,
+        Иван Петровски е 27 годишен дипломиран аранжер на Факултетот за Музичка Уметност во Скопје, Македонија, гитарист и композитор. Тој е самоук гитарист кој првично самостојно ги развива своите вештини,a потоа продолжува професионално да се занимава со музика. Има настапувано на многубројни концерти и фестивали како: MC Gallery - ЊуЈорк/САД, International Music Festival - Ланжу/Кина, Landaa Giraavaru - Малдиви, Jazz and Blues Festival - Косовска Митровица, Охридско Лето 2017/2018 - Македонија. Во сферата на поп музиката активно се занимава со аранжирање и пишување песни, а како гитарист позади себе има 6 албуми и свири во бендовите: D.S.H., 3ject, MusaiQ, HigherGround.`,
         "btnEN": "Donate for Polina&Ivan",
         "btnMK": "Донирај за Polina&Ivan"
     },
     {
         "id": 11,
         "assetId": 102693,
-        "title": 'Ringtones',
+        "title": 'The Ringtones',
         "image": 'img/thumb/ringtones.jpg',
         "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/-PDBUYyEDCI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
-        "descriptionEN": `The Ringtones is a cover band based in Skopje, North Macedonia, formed in 2015. The band currently consists of lead vocalist Dina Jovanovska, Simon Peoski on the guitar and backing vocals, bassist Darko Fotinovski, guitarist Nevrus Bajram and drummer Kristijan Lafazanovski. We like covering pop, rock, rock
+        "descriptionEN": `The Ringtones is a cover band based in Skopje, North Macedonia, formed in 2014. The band currently consists of lead vocalist Dina Jovanovska, Simon Peoski on the guitar and backing vocals, bassist Darko Fotinovski, guitarist Nevrus Bajram and drummer Kristijan Lafazanovski. <br><br>We like covering pop, rock, rock
         'n roll, retro and disco hits from the 80's and 90's, as well as some brand new music that we find interesting to play. So far we've played in many different clubs, bars and other places around the country as well as festivals, humanitary events, weddings and private parties.`,
-        "descriptionMK": `The Ringtones е музички состав кој што изведува разновиден странски но и македонски репертоар од забавни поп, рок, рокенрол, диско и ретро хитови. Составот е оформен во 2015 година и во него членуваат: Дина Јовановска (вокал), Симон Пеоски (гитара и вокал), Дарко Фотиновски (бас гитара), Кристијан Лафазановски (тапани) и Неврус Бајрам (гитара). Имаат настапувано на голем број манифестации од отворен и затворен карактер низ голем број на ноќни клубови, јавни
-        простори на територијата на Република Северна Македонија.`,
-        "btnEN": "Donate for Ringtones",
-        "btnMK": "Донирај за Ringtones"
+        "descriptionMK": `The Ringtones е музички состав кој што изведува разновиден странски но и македонски репертоар од забавни поп, рок, рокенрол, диско и ретро хитови. Составот е оформен во 2014 година и во него членуваат: Дина Јовановска (вокал), Симон Пеоски (гитара и вокал), Дарко Фотиновски (бас гитара), Кристијан Лафазановски (тапани) и Неврус Бајрам (гитара). <br><br> Имаат настапувано на голем број манифестации од отворен и затворен карактер низ голем број на ноќни клубови, јавни простори на територијата на Република Северна Македонија.`,
+        "btnEN": "Donate for The Ringtones",
+        "btnMK": "Донирај за The Ringtones"
+    },
+    {
+        "id": 12,
+        "assetId": 102786,
+        "title": 'Zarina Prvasevda',
+        "image": 'img/thumb/zarina.jpg',
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/GXywOMS9qp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+        "descriptionEN": `Zarina Prvasevda is a vocalist, performer of Маcedonian Traditional and World music, based in Skopje, Macedonia. Her main inspiration is from nature and from the songs of the early life and the cultural evolution of her nation in the history, but also from human differences and different cultures all around the world in which she is exploring and is interested in.  In her portfolio, she has many collaborations and vocal engagements: National ensemble „Tanec“, FUNHOUSE project, Cookie&Jam, FIN Project, Kaly Music Challenge. Movies: „Pearl of the Sky“, Macedonian Adventures „Via Dinarica“. <br><br>
+        Currently, she is finishing her first album that contains 12 traditional songs, from different regions, on different languages in which she collaborates with eminent musicians from the country and the world as Vasil Hadzimanov, Ismail Lumanovski, Aleksandar Petrov e.c.t, and its release will be 2020.`,
+        "descriptionMK": `Зарина Првасевда е вокалист, исполнувач на Македонска и Светска традиционална музика (World music), која живее во Скопје, Македонија.
+        Таа својата инспирација ја влече од природата и од песните и музиката на нејзиниот народ низ историјата и културната еволуција, како и од човековите различности и култури за кои се таа се интересира и истражува.  Во нејзиното портфолио можат да се најдат бројни соработки и вокални ангажмани: НУ „Танец“, FUNHOUSE project, Cookie&Jam, FIN Project, Kaly Music Challenge. Филмови: „Бисерот од небото“, Македонските авантури „Виа Динарика“.<br><br>
+        Во моментов таа го завршува својот прв студиски албум кој содржи 12 традиционални песни од различни региони, на различни јазици , на кој таа соработува со еминентни музичари од земјата и светот како Васил Хаџиманов, Исмаил Лумановски, Александар етров и сл. - истиот ќе биде издаден во 2020 година.`,
+        "btnEN": "Donate for Zarina Prvasevda",
+        "btnMK": "Донирај за Зарина Првасевда"
+    },
+    {
+        "id": 13,
+        "assetId": 103346,
+        "title": 'Station: Innermost',
+        "image": 'img/thumb/stationInnermost.jpg',
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/PS74LEp7zQU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+        "descriptionEN": `Station: Innermost is a progressive-rock band formed in 2018 in Skopje. In 2019 they released their debut EP – “Exposure”, a conceptual release packing 27 minutes of music based around 5 characters, with each song focusing on different psychological states that challenge people in today’s world. “Exposure” features Derek Sherinian (ex-Dream Theater, Alice Cooper, Billy Idol, Planet X, etc) as a guest keyboardist on two songs and Adi Imeri as a guest vocalist.<br><br>
+        In early 2020, Station: Innermost released a follow up single - “The Light”, released a music video and did promotional shows throughout the country. Currently, they are working on new bulk of music set to release in the near future. <br><br>
+        Station: Innermost consists of: <br>
+        Natasha Miha - vocals, keyboards <br> 
+        Damir Puh – guitar <br> 
+        Stefan Petanovski – guitar <br> 
+        Darko Fotinovski – bass <br> 
+        Dejan Apostolovski – drums`,
+        "descriptionMK": `Station: Innermost е прогресив рок бенд од Скопје, формиран 2018-та година. Во 2019-та бендот го издава своето деби концептуално ЕП "Exposure", 27 минути музика спакувани во 5 песни базирани на 5 различни ликови, чија тематика се заснова на психолошки стадиуми и процеси предизвикани од секојдневниот живот. Како гостин на две песни од "Expsure" се појавува клавијатуристот Derek Sherinian (ex-Dream Theater, Alice Cooper, Billy Idol, Planet X, итн. ). Гостин на “Exposure” е и Ади Имери како вокал, исто така на две песни. <br><br>
+        На почеток на 2020, Station: Innermost објавуваат нов сингл со видео запис под наслов "The Light", и прават свирачки промоции во рамките на државата. Моментално, бендот работи на нова музика која ќе биде објавена во блиска иднина. <br><br>
+        Членови на Station: Innermost се: <br>
+        Наташа Миха - вокал, клавијатура <br>
+        Дамир Пух - гитара <br>
+        Стефан Петановски - гитара <br>
+        Дарко фотиновски - бас гитара <br>
+        Дејан Апостоловски – тапани <br>
+        `,
+        "btnEN": "Donate for Station: Innermost",
+        "btnMK": "Донирај за Station: Innermost"
     },
 ];
