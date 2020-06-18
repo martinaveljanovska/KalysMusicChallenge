@@ -189,4 +189,76 @@ export default [
         "btnEN": "Donate for Station: Innermost",
         "btnMK": "Донирај за Station: Innermost"
     },
+    {
+        "id": 14,
+        "assetId": 104569,
+        "title": 'Kire Mirchovski',
+        "image": 'img/thumb/kire.jpg',
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/DU5fqsH1qbE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+        "descriptionEN": `Kire Mirchovski is a talented guitarist from Skopje the capital of Macedonia, the heart of the Balkan region and the motherland of great musicians. This ambitious song author is very passionate about writing as well and he is currently working on his debut solo EP - ‘’Insanus’’. When you hear the five compositions who are found on his debut, you could enjoy the sound of the guitars and the power of  the instrumental rock will not leave you indifferent. Part of this journey is the well-known Macedonian
+        guitarist Damir Puh who as a special guest is also the face behind the mix and master for the whole project. <br><br>
+         It’s not a secret that Kire is а huge fan of sound effects who is also boldly experimenting with Psychedelic music. This kind of music plays a big role for &quot;Atom Particles&quot;, Kire&#39;s band. The ambitious Macedonian has been part of many musical projects, currently he is collaborating with &quot;Miyatta&quot;. <br><br>
+          But with all the projects and the responsibility calling on him, he still manages to be fully present and active with his other cover band &quot;Caffeine&quot;.`,
+        "descriptionMK": `Кире Мирчовски е гитарист, автор, композитор од Скопје, Македонија. Во Финални подготовки е издавањето на неговото прво, соло EP – ‘Insanus’. Станува збор за гитарска, инструментална рок музика, составена од пет композиции. Гитарско соло во една од композициите свири и потпишува гитаристот Дамир Пух кој воедно ги работи миксот и мастерот на целиот проект. <br><br> 
+        Како гитарист кој сака да икспериментира со звукот, фанатик по ефекти и психоделија има голем импут во креирањето на новата музика во неговиот авторски бенд - Atom Particles, музика која допрва ќе стане дел од пошироката јавност. <br><br>
+        Atom Particles членови: <br><br>
+        Кире Мирчовски – гитара <br> Томе Трајковски – бас гитара<br> Иво Митковски – Тапани.<br><br>
+        Свири, настапува и е дел од проекти со Мијата’ и е член на кавер бендот ‘CaffeIne’.`,
+        "btnEN": "Donate for Kire Mirchovski",
+        "btnMK": "Донирај за Кире Мирчовски"
+    },
+    {
+        "id": 15,
+        "assetId": 105114,
+        "title": 'Damir Puh',
+        "image": 'img/thumb/damir-puh.jpg',
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/p83oRj14KGY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+        "descriptionEN": `Damir Puh is a guitarist, songwriter and producer based in Skopje, Republic of North Macedonia. He picked up the guitar at age 13, inspired by numerous classic rock and blues bands and artists. That initial spark was later complemented by the new-found passion for instrumental, progressive and fusion genres as well. The contrast between the simple, attitude-heavy and the sophisticated, fast, layered music left a permanent mark on his guitar playing and style of production - making music with attitude, aiming to inspire people. <br><br>
+        Even from the beginning of his musical journey – writing, recording and performing original music has always been his primary focus. He has released music as a solo artist, as well as a member of full-time bands, performed at multiple national and regional festivals and events and produced bands and artists.<br><br>
+        Over the years he also took part in multiple guitar competitions, winning awards or being a finalist in most of them – Top-8 finalist at Guitar Idol 4 (2014), Winner in the rock guitar category and 3rd place in  the overall ranking of “Six String Theory” (2014), “Guitar Master” finalist (2010), Live4Guitar winner (2010), etc. <br><br>
+        Currently, he’s also a member of Station: Innermost. <br><br>
+        Selected Discography: <br><br>
+        - Debut solo album “Recollection” (2017) <br>
+        - Station: Innermost - “Exposure” (2019) <br>
+        - Station: Innermost single – “The Light” (2020) <br>
+        - “Radiance” – solo single (2020)`,
+        "descriptionMK": `Дамир Пух е гитарист, композитор и продуцент со седиште во Скопје, Република Северна
+        Македонија. Почнува да свири гитара на 13 годишна возраст, инспириран од бројни класични блуз-рок бендови и артисти. Таа почетна искра е подоцна надополнета со влијанија од инструменталниот, прогресивен и fusion музички свет. Контрастот помеѓу едноставната, енергична и софистицираната и слоевита музика остава постојан белег на неговиот стил на свирење гитара и музичка продукција  – креирање бескомпромисна музика што ќе инспирира. <br><br>
+        Креирањето, снимањето и изведбата на оригинална музика е неговиот примарен фокус уште од самите музички почетоци. Има издадено музика како соло артист, како дел од бројни бендови,
+        настапи на повеќе национални и регионални фестивали и продуцирано бендови и артисти во рамки на државата и надвор од неа. <br><br>
+        Низ годините, зема учество во неколку натпревари за гитара, освојувајќи награди во повеќето од нив – топ-8 финалист на Guitar Idol 4 (2014), Победник во категоријата рок гитара и 3то место во генералниот пласман на „Six String Theory“(2014), финалист на „Guitar Master“(2010), победник на Live4Guitar (2010), итн. <br><br>
+        Во моментов, тој е и член на Station: Innermost. <br><br>
+        Избрана дискографија: <br><br>
+        - “Recollection” (2017) – соло албум <br>
+        - Station: Innermost - “Exposure” (2019) – ЕП <br>
+        - Station: Innermost – “The Light” (2020) - сингл <br>
+        - “Radiance” – сингл (2020)`,
+        "btnEN": "Donate for Damir Puh",
+        "btnMK": "Донирај за Дамир Пух"
+    },
+    {
+        "id": 16,
+        "assetId": 105115,
+        "title": 'Stefan Petanovski',
+        "image": 'img/thumb/stefan-petanovski.jpg',
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/VNF90F8FKRQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+        "descriptionEN": `Stefan Petanovski is a guitarist, artist and composer based in Skopje, Macedonia. His style as an artist can be explained as a mixture of different genres from rock, metal all the way to jazz, fusion while still maintaining the modern progressive sound. His main goal is to incorporate new elements, textures and soundscapes in order to achieve evolution and hopefully, to find his own unique creative “voice” within the whole musical palette.<br><br>
+        Besides guitar playing, another big passion of his is composition, that&#39;s where the bulk of the inspiration comes from, he also spends fair amount of time crafting the field of production and mixing.<br><br>
+        Over the years, he&#39;s been a part of many projects and bands including Spectrum (with whom they&#39;ve released the album “Hiraeth”), Damir Puh&#39;s solo project band and most recently, Chromatic Point.<br><br>
+        Despite all these projects, his main band and occupation remains Station: Innermost with whom they&#39;ve released the EP “Exposure” in 2019 as well as a follow up single “The Light”. Yet they continue to work on new material that will be released in the future.<br><br>
+        In 2019, he released his first solo album “Architect of Reality” and that marked the beginning of his solo project. <br><br>
+        Currently, he&#39;s working on his second solo album, a conceptual piece of music with tons of experimentation, pushing the musical comfort zone as he continues to fuse all sorts of different and unpredictable sounds and styles.`,
+        "descriptionMK": `Стефан Петановски е гитарист, артист и композитор од Скопје, Македонија. Неговиот стил најдобро може да се опише како спој од различни жанрови меѓу кои рок,
+        метал, џез, фјужн, а сепак задржувајќи го модерниот прогерсивен звук. Со инкорпорирање нови елементи, текстури и звуци, се стреми да го најде својот уникатен и
+        креативен тон низ целата музичка палета.<br><br>
+        Исто како и гитарата, негова голема пасија претставува компонирањето, од каде произлегува основата на неговата инспирација. Тој посветува голем дел од времето работејќи и усовршувајќи се во полето на продукција и микс.<br><br>
+        Низ годините, тој учествува во голем број проекти и бендови, меѓу кои: Spectrum (во чии состав го издадоа албумот “Hiraeth”), бендот на Дамир Пух и неодамна, Chromatic Point.<br><br>
+        И покрај сите овие проекти, неговата главна окупација останува бендот Station: Innermost. Тие го издадоа нивното прво издание “Exposure” во 2019, како и синглот &quot;The
+        Light&quot;. Бендот работи и на нов материјал кој ќе биде издаден во иднина. <br><br>
+        Во 2019, Стефан го издава својот прв соло албум “Architect of Reality” и со тоа го бележи
+        почетокот на својот соло проект.<br><br>
+        Во моментов, работи на својот втор соло албум, станува збор за концептуално парче музика со голема доза на експериментирање, тој имплементира различни, непредвидливи звуци и стилови со што продолжува да ја пробива својата музичка комфорт зона.`,
+        "btnEN": "Donate for Stefan Petanovski",
+        "btnMK": "Донирај за Стефан Петановски"
+    },
 ];
