@@ -80,9 +80,20 @@ export default [
         "image": 'img/thumb/elena-jimmy.jpg',
         "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/cFEkVTTSB4s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
         "descriptionEN": `Elena Stavreska is a vocalist from Skopje, whose life story is a particular combination of singing, fine art, jewelry design and Tai Ji Quan. After many years of choir singing experience, she appears on the local band scene for the first time in 2013. <br><br> In regard to her manner of vocal interpretation, Heavy metal and Blues influences are most prominent Ronnie James Dio, David Coverdale, Ann Wilson, Koko Taylor, Gregg Allman). Performing history: Victims Of Changes (Heavy metal cover band) 2013-2016, Yarl (Heavy metal cover band) 2015-2018, Онија Блузерине (Blues cover band) 2016-2018, Blues Of Metal (acoustic cover duo) 2020. <br><br>
+        <a target="_blank" href="https://www.facebook.com/Elena-Stavreskas-artwork-Dimension-ELF-377039812405103/" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a target="_blank" href="https://www.instagram.com/dimension_elf" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="https://www.tiktok.com/@dimension_elf" class="social-link"><i class="fab fa-tiktok"></i></a><br><br>
+
         Nikola Jimmie Petrovski is a guitarist from Skopje who’s been playing professionally for 10 years. In the last 10 years he’s a part of the blues-duo “In The Mood’, where alongside Sasho Gjorgjevski they have played in over 3000 gigs around Macedonia and in the Balkans Nikola started playing guitar in 1998 and from the start his main inspiration is the Blues-music. Guitar
-        players like Stevie Ray Vaughan, Eric Clapton, Jimmie Vaughan, Jimi Hendrix, Tommy Emmanuel, Derek Trucks and many more are his main influence.`,
-        "descriptionMK": `Елена Ставреска е вокалист од Скопје, чија животна приказна е своевидна комбинација од пеење, ликовна уметност, дизајн на накит и Таи Чи Чуан. После долгогодишно искуство со хорското пеење, прв пат на локалната бендовска сцена се појавува во 2013 година. <br><br> Што се однесува до манирот во нејзината вокална интерпретација, најмногу се чувствува влијанието на Хеви металот и Блузот (Ronnie James Dio, David Coverdale, Ann Wilson, Koko Taylor, Gregg Allman). Настапувачки историјат: Victims Of Changes (Хеви метал кавер состав) 2013-2016, Yarl (Хеви метал кавер состав)  2015-2018, Онија Блузерине (Блуз кавер состав) 2016-2018, Blues Of Metal (акустично кавер дуо) 2020. <br><br> Никола Џими Петровски е гитарист од Скопје кој професионално свири гитара 10 години. Во изминативе 10 години тој е дел од Блуз-дуото “In The Mood” каде заедно со Сашо Ѓорѓевски имаат направено околу 3000 свирки низ Македонија и пошироко. Никола почнал да свири гитара од 1998 година и од самиот старт Блуз-музиката му е главен извор на инспирација. Гитаристи како Stevie Ray Vaghan, Eric Clapton, Jimi Hendrix, Jimmie Vaughan, Tommy Emmanuel,Derek Trucks, се само дел од неговите бројни влијанија.`,
+        players like Stevie Ray Vaughan, Eric Clapton, Jimmie Vaughan, Jimi Hendrix, Tommy Emmanuel, Derek Trucks and many more are his main influence.<br><br>
+        <a target="_blank" href="https://www.facebook.com/IN-THE-MOOD-142577829159285/" class="social-link"><i class="fab fa-facebook-f"></i></a>`,
+        "descriptionMK": `Елена Ставреска е вокалист од Скопје, чија животна приказна е своевидна комбинација од пеење, ликовна уметност, дизајн на накит и Таи Чи Чуан. После долгогодишно искуство со хорското пеење, прв пат на локалната бендовска сцена се појавува во 2013 година. <br><br> Што се однесува до манирот во нејзината вокална интерпретација, најмногу се чувствува влијанието на Хеви металот и Блузот (Ronnie James Dio, David Coverdale, Ann Wilson, Koko Taylor, Gregg Allman). Настапувачки историјат: Victims Of Changes (Хеви метал кавер состав) 2013-2016, Yarl (Хеви метал кавер состав)  2015-2018, Онија Блузерине (Блуз кавер состав) 2016-2018, Blues Of Metal (акустично кавер дуо) 2020.  <br><br>
+        <a target="_blank" href="https://www.facebook.com/Elena-Stavreskas-artwork-Dimension-ELF-377039812405103/" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a target="_blank" href="https://www.instagram.com/dimension_elf" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="https://www.tiktok.com/@dimension_elf" class="social-link"><i class="fab fa-tiktok"></i></a><br><br> 
+        Никола Џими Петровски е гитарист од Скопје кој професионално свири гитара 10 години. Во изминативе 10 години тој е дел од Блуз-дуото “In The Mood” каде заедно со Сашо Ѓорѓевски имаат направено околу 3000 свирки низ Македонија и пошироко. Никола почнал да свири гитара од 1998 година и од самиот старт Блуз-музиката му е главен извор на инспирација. Гитаристи како Stevie Ray Vaghan, Eric Clapton, Jimi Hendrix, Jimmie Vaughan, Tommy Emmanuel,Derek Trucks, се само дел од неговите бројни влијанија. <br><br>
+        <a target="_blank" href="https://www.facebook.com/IN-THE-MOOD-142577829159285/" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        `,
         "btnEN": "Donate for Elena & Jimmy",
         "btnMK": "Донирај за Elena & Jimmy"
     },
@@ -93,9 +104,13 @@ export default [
         "image": 'img/thumb/agni-avshar.jpg',
         "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/tJ5tAAqDwI8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
         "descriptionEN": `Agni Avshar is a vocalist situated in Skopje, North Macedonia. Her love and talent for musical expression reached their realization when, at the age of 8, she was enrolled in the Elementary Music School “Ilija Nikolovski – Luj”,  where she learned how to play the piano and music theory for 7 years. Yet,  it wasn’t until 2016 when her professional music upgrading and endeavor began, when she started her studies in the Jazz Academy in Skopje. Since then she has collaborated with many renowned and highly talented musicians. She often attributes most of her contemporary music knowledge to their and to her University professors’ music proficiency, all of which selflessly invested in her mastery and started involving her into their public performances and jazz sessions in town since her freshmen year. <br><br>
-        Influenced by the Jazz, Blues and Soul’s greatest vocalists, her authentic sound is a mixture of sultriness and power. She enjoys singings the classical  jazz standards and “Jazzing Up” some modern tunes of various genres.`,
+        Influenced by the Jazz, Blues and Soul’s greatest vocalists, her authentic sound is a mixture of sultriness and power. She enjoys singings the classical  jazz standards and “Jazzing Up” some modern tunes of various genres. <br><br>
+        <a target="_blank" href="https://www.facebook.com/avsharagni/" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a target="_blank" href="https://www.instagram.com/agniavshar1008/" class="social-link"><i class="fab fa-instagram"></i></a>`,
         "descriptionMK": `Агни Авшар е вокален изведувач од Скопје, Северна Македонија. Нејзината љубов и талент за музичко изразување добија своја реализација на возраст од 8 години, кога беше запишана во нижото музичко училиште „Илија Николовски-Луј“, каде 7 години учеше да свири клавир и музичка теорија. Сепак, нејзината професионална музичка надградба и уметничко патување започнаа во 2016 година кога ги започнува студиите на Џез Академијата во Скопје. Оттогаш има  соработувано со многумина истакнати и исклучително талентирани   музичари. Таа честопати ја истакнува благодарноста кон нив и нејзините професори од факултетот, затоа што сите несебично инвестирале во  нејзиното музичко образование, поради што и започнале да ја вклучуваат во нивните јавни настапи и џез сесии уште од нејзината прва  година на студии. <br><br>
-        Под влијание на најголемите вокални изведувачи на џезот, блузот и  соулот, нејзиниот автентичен звук е смеса од вокална сензуалност и  моќ. Таа ужива да ги пее класичните џез стандарди, како и да „џезира“ некои модерни мелодии од најразлични жанри.`,
+        Под влијание на најголемите вокални изведувачи на џезот, блузот и  соулот, нејзиниот автентичен звук е смеса од вокална сензуалност и  моќ. Таа ужива да ги пее класичните џез стандарди, како и да „џезира“ некои модерни мелодии од најразлични жанри.<br><br>
+        <a target="_blank" href="https://www.facebook.com/avsharagni/" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a target="_blank" href="https://www.instagram.com/agniavshar1008/" class="social-link"><i class="fab fa-instagram"></i></a>`,
         "btnEN": "Donate for Agni Avshar",
         "btnMK": "Донирај за Agni Avshar"
     },
@@ -106,9 +121,13 @@ export default [
         "image": 'img/thumb/fusnota.jpg',
         "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/oI5uT84Jyxk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
         "descriptionEN": `Skopje-based Fusnota have been making music since late 2001, despite nobody asking them to (and in fact several people asking them to stop). Their prefered way of describing their sound is &quot;punks who think they&#39;re metalheads, grown up on mainstream music, trying to play art rock but unable to stay away from distortion long enough.&quot; <br><br>
-        Despite all odds, Fusnota has two albums: an untitled one from 2010, You Are Empty [2013], and two EPs: Cabal [2016] and ER [2018]. They will presumably continue churning out more, as long as the band member's health can support their ambitions.`,
+        Despite all odds, Fusnota has two albums: an untitled one from 2010, You Are Empty [2013], and two EPs: Cabal [2016] and ER [2018]. They will presumably continue churning out more, as long as the band member's health can support their ambitions.<br><br>
+        <a target="_blank" href="https://www.facebook.com/AColderPlace/" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCbC-Zm4vFTwE1Uc8VqLXESA" class="social-link"><i class="fab fa-youtube"></i></a>`,
         "descriptionMK": `Скопските Fusnota создаваат музика од крајот на 2001 година без никој да им каже (а и со неколку луѓе што им викаат да престанат). Звукот си ја опишуваат како &quot;панкери што си мислат дека се металци а се растени на мејнстрим музика пробуваат да свират арт рок ама не можат доволно да се воздржат од дисторзија.&quot;<br><br>
-        И покрај сите напори за спротивното, Fusnota имаат два албуми: еден неименуван од 2010 и You Are Empty од 2013, како и две EP изданија: Кабал [2016] и ЕР [2018]. Се очекува да продолжат да вадат уште изданија сѐ додека здравствената состојба на членовите на бендот ги поддржува нивните амбиции.`,
+        И покрај сите напори за спротивното, Fusnota имаат два албуми: еден неименуван од 2010 и You Are Empty од 2013, како и две EP изданија: Кабал [2016] и ЕР [2018]. Се очекува да продолжат да вадат уште изданија сѐ додека здравствената состојба на членовите на бендот ги поддржува нивните амбиции.<br><br>
+        <a target="_blank" href="https://www.facebook.com/AColderPlace/" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCbC-Zm4vFTwE1Uc8VqLXESA" class="social-link"><i class="fab fa-youtube"></i></a>`,
         "btnEN": "Donate for Fusnota",
         "btnMK": "Донирај за Fusnota"
     },
@@ -118,8 +137,10 @@ export default [
         "title": 'Kaláta',
         "image": 'img/thumb/kalata.jpg',
         "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/32SSghg4Kxg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
-        "descriptionEN": `Kaláta is a band-project that was formed in 2019 by Simeon Angelovski and Minela Bogdanovic and performs World Music/ New age with accent of the macedonian traditional vibe.`,
-        "descriptionMK": `КАЛÁТА е дуо т.е бенд-проект, составен од Симеон Ангеловски и Минела Богдановиќ во 2018 година кој што создава авторска музика вклучувајќи и преработки на Македонски традиционални песни. Жанр - World Music/ New Age.`,
+        "descriptionEN": `Kaláta is a band-project that was formed in 2019 by Simeon Angelovski and Minela Bogdanovic and performs World Music/ New age with accent of the macedonian traditional vibe.<br><br>
+        <a target="_blank" href="https://www.youtube.com/channel/UCUOS_MQ2BnXI3rUSHEKEW0Q" class="social-link"><i class="fab fa-youtube"></i></a>`,
+        "descriptionMK": `КАЛÁТА е дуо т.е бенд-проект, составен од Симеон Ангеловски и Минела Богдановиќ во 2018 година кој што создава авторска музика вклучувајќи и преработки на Македонски традиционални песни. Жанр - World Music/ New Age.<br><br>
+        <a target="_blank" href="https://www.youtube.com/channel/UCUOS_MQ2BnXI3rUSHEKEW0Q" class="social-link"><i class="fab fa-youtube"></i></a>`,
         "btnEN": "Donate for Kaláta",
         "btnMK": "Донирај за Kaláta"
     },
@@ -131,9 +152,17 @@ export default [
         "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/2Tx7JeeNw9k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
         "descriptionEN": `Polina Taseva is a 27-year-old opera singer with a master&#39;s degree from the Musical Academy in Skopje
         Macedonia. Besides the opera, she is actively engaged in popular singing as well, by performing in the cities all over the country as a lead vocal in the cover band - Higher Ground. Her experience includes many choir performances, competitions in classical music, so as guest appearances out of Macedonia. She has played roles in many opera performances and has been part of opera shows for children,  concerts, workshops, etc. An important single that can be mentioned is the originally written song named &quot;Broken&quot; in collaboration with Tommy Tassev. She has been performing during the years as a  back vocalist for Next Time, Lozano, and other artists. <br><br>
-        Ivan Petrovski is a 27-year music arranger that has graduated at the Musical Academy in Skopje Macedonia, guitarist, and composer. Having been fascinated by the guitar since his earliest days, he learned to play by himself, therefore continued studying music and performing professionally. He has played on venues such as MC Gallery - New York/USA, International Music Festival - Lanzhou/China, Landaa Giraavaru - Maldives, Jazz, and Blues Festival - Kosovska Mitrovica, Ohrid Summer Festival 2017/2018 - Macedonia. In the field of pop-music he is actively engaged in arranging and song writing, as a guitarist he had recorded 6 albums and he plays in the following bands: D.S.H., 3ject, MusaiQ, Higher Ground.`,
+        <a target="_blank" href="https://www.instagram.com/polinatas/" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="https://www.facebook.com/ptsingasong" class="social-link"><i class="fab fa-facebook-f"></i></a><br><br>
+        Ivan Petrovski is a 27-year music arranger that has graduated at the Musical Academy in Skopje Macedonia, guitarist, and composer. Having been fascinated by the guitar since his earliest days, he learned to play by himself, therefore continued studying music and performing professionally. He has played on venues such as MC Gallery - New York/USA, International Music Festival - Lanzhou/China, Landaa Giraavaru - Maldives, Jazz, and Blues Festival - Kosovska Mitrovica, Ohrid Summer Festival 2017/2018 - Macedonia. In the field of pop-music he is actively engaged in arranging and song writing, as a guitarist he had recorded 6 albums and he plays in the following bands: D.S.H., 3ject, MusaiQ, Higher Ground.<br><br>
+        <a target="_blank" href="https://www.instagram.com/ivanjoki/" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="https://www.facebook.com/ivan.petrovski.993" class="social-link"><i class="fab fa-facebook-f"></i></a>`,
         "descriptionMK": `Полина Тасева е 27 годишна магистрирана оперска пејачка на Факултетот за Музичка Уметност во Скопје. Покрај операта паралелно се занимава и со забавното пеење, настапувајки низ градовите  во Македонија како главен вокал на бендот Higher Ground. Нејзиното искуство опфаќа   многубројни хорски настапи, натпревари во класичната музика како и гостувања надвор од  земјата. Има одиграно улоги во оперски претстави и претстави за деца, концертни изведби,  семинари и др. Како позначајна се издовјува нејзината соработка со Томи Тасев, авторскиот сингл &quot;Broken&quot;. Како придружен вокал настапува со Некст Тајм, Лозано и соработува со други македонски артисти. <br><br>
-        Иван Петровски е 27 годишен дипломиран аранжер на Факултетот за Музичка Уметност во Скопје, Македонија, гитарист и композитор. Тој е самоук гитарист кој првично самостојно ги развива своите вештини,a потоа продолжува професионално да се занимава со музика. Има настапувано на многубројни концерти и фестивали како: MC Gallery - ЊуЈорк/САД, International Music Festival - Ланжу/Кина, Landaa Giraavaru - Малдиви, Jazz and Blues Festival - Косовска Митровица, Охридско Лето 2017/2018 - Македонија. Во сферата на поп музиката активно се занимава со аранжирање и пишување песни, а како гитарист позади себе има 6 албуми и свири во бендовите: D.S.H., 3ject, MusaiQ, HigherGround.`,
+        <a target="_blank" href="https://www.instagram.com/polinatas/" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="https://www.facebook.com/ptsingasong" class="social-link"><i class="fab fa-facebook-f"></i></a><br><br>
+        Иван Петровски е 27 годишен дипломиран аранжер на Факултетот за Музичка Уметност во Скопје, Македонија, гитарист и композитор. Тој е самоук гитарист кој првично самостојно ги развива своите вештини,a потоа продолжува професионално да се занимава со музика. Има настапувано на многубројни концерти и фестивали како: MC Gallery - ЊуЈорк/САД, International Music Festival - Ланжу/Кина, Landaa Giraavaru - Малдиви, Jazz and Blues Festival - Косовска Митровица, Охридско Лето 2017/2018 - Македонија. Во сферата на поп музиката активно се занимава со аранжирање и пишување песни, а како гитарист позади себе има 6 албуми и свири во бендовите: D.S.H., 3ject, MusaiQ, HigherGround.<br><br>
+        <a target="_blank" href="https://www.instagram.com/ivanjoki/" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="https://www.facebook.com/ivan.petrovski.993" class="social-link"><i class="fab fa-facebook-f"></i></a>`,
         "btnEN": "Donate for Polina&Ivan",
         "btnMK": "Донирај за Polina&Ivan"
     },
@@ -144,8 +173,14 @@ export default [
         "image": 'img/thumb/ringtones.jpg',
         "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/-PDBUYyEDCI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
         "descriptionEN": `The Ringtones is a cover band based in Skopje, North Macedonia, formed in 2014. The band currently consists of lead vocalist Dina Jovanovska, Simon Peoski on the guitar and backing vocals, bassist Darko Fotinovski, guitarist Nevrus Bajram and drummer Kristijan Lafazanovski. <br><br>We like covering pop, rock, rock
-        'n roll, retro and disco hits from the 80's and 90's, as well as some brand new music that we find interesting to play. So far we've played in many different clubs, bars and other places around the country as well as festivals, humanitary events, weddings and private parties.`,
-        "descriptionMK": `The Ringtones е музички состав кој што изведува разновиден странски но и македонски репертоар од забавни поп, рок, рокенрол, диско и ретро хитови. Составот е оформен во 2014 година и во него членуваат: Дина Јовановска (вокал), Симон Пеоски (гитара и вокал), Дарко Фотиновски (бас гитара), Кристијан Лафазановски (тапани) и Неврус Бајрам (гитара). <br><br> Имаат настапувано на голем број манифестации од отворен и затворен карактер низ голем број на ноќни клубови, јавни простори на територијата на Република Северна Македонија.`,
+        'n roll, retro and disco hits from the 80's and 90's, as well as some brand new music that we find interesting to play. So far we've played in many different clubs, bars and other places around the country as well as festivals, humanitary events, weddings and private parties.<br><br>
+        <a target="_blank" href="https://www.instagram.com/weareringtones/" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="https://www.facebook.com/weareringtones" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UC6t5vE9dpzcC8dQ-yYS4qcw" class="social-link"><i class="fab fa-youtube"></i></a>`,
+        "descriptionMK": `The Ringtones е музички состав кој што изведува разновиден странски но и македонски репертоар од забавни поп, рок, рокенрол, диско и ретро хитови. Составот е оформен во 2014 година и во него членуваат: Дина Јовановска (вокал), Симон Пеоски (гитара и вокал), Дарко Фотиновски (бас гитара), Кристијан Лафазановски (тапани) и Неврус Бајрам (гитара). <br><br> Имаат настапувано на голем број манифестации од отворен и затворен карактер низ голем број на ноќни клубови, јавни простори на територијата на Република Северна Македонија.<br><br>
+        <a target="_blank" href="https://www.instagram.com/weareringtones/" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="https://www.facebook.com/weareringtones" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UC6t5vE9dpzcC8dQ-yYS4qcw" class="social-link"><i class="fab fa-youtube"></i></a>`,
         "btnEN": "Donate for The Ringtones",
         "btnMK": "Донирај за The Ringtones"
     },
@@ -156,10 +191,14 @@ export default [
         "image": 'img/thumb/zarina.jpg',
         "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/GXywOMS9qp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
         "descriptionEN": `Zarina Prvasevda is a vocalist, performer of Маcedonian Traditional and World music, based in Skopje, Macedonia. Her main inspiration is from nature and from the songs of the early life and the cultural evolution of her nation in the history, but also from human differences and different cultures all around the world in which she is exploring and is interested in.  In her portfolio, she has many collaborations and vocal engagements: National ensemble „Tanec“, FUNHOUSE project, Cookie&Jam, FIN Project, Kaly Music Challenge. Movies: „Pearl of the Sky“, Macedonian Adventures „Via Dinarica“. <br><br>
-        Currently, she is finishing her first album that contains 12 traditional songs, from different regions, on different languages in which she collaborates with eminent musicians from the country and the world as Vasil Hadzimanov, Ismail Lumanovski, Aleksandar Petrov e.c.t, and its release will be 2020.`,
+        Currently, she is finishing her first album that contains 12 traditional songs, from different regions, on different languages in which she collaborates with eminent musicians from the country and the world as Vasil Hadzimanov, Ismail Lumanovski, Aleksandar Petrov e.c.t, and its release will be 2020.<br><br>
+        <a target="_blank" href="https://www.instagram.com/zarina_prvasevda/" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="https://www.facebook.com/zarinaprvasevda/" class="social-link"><i class="fab fa-facebook-f"></i></a>`,
         "descriptionMK": `Зарина Првасевда е вокалист, исполнувач на Македонска и Светска традиционална музика (World music), која живее во Скопје, Македонија.
         Таа својата инспирација ја влече од природата и од песните и музиката на нејзиниот народ низ историјата и културната еволуција, како и од човековите различности и култури за кои се таа се интересира и истражува.  Во нејзиното портфолио можат да се најдат бројни соработки и вокални ангажмани: НУ „Танец“, FUNHOUSE project, Cookie&Jam, FIN Project, Kaly Music Challenge. Филмови: „Бисерот од небото“, Македонските авантури „Виа Динарика“.<br><br>
-        Во моментов таа го завршува својот прв студиски албум кој содржи 12 традиционални песни од различни региони, на различни јазици , на кој таа соработува со еминентни музичари од земјата и светот како Васил Хаџиманов, Исмаил Лумановски, Александар етров и сл. - истиот ќе биде издаден во 2020 година.`,
+        Во моментов таа го завршува својот прв студиски албум кој содржи 12 традиционални песни од различни региони, на различни јазици , на кој таа соработува со еминентни музичари од земјата и светот како Васил Хаџиманов, Исмаил Лумановски, Александар етров и сл. - истиот ќе биде издаден во 2020 година.<br><br>
+        <a target="_blank" href="https://www.instagram.com/zarina_prvasevda/" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="https://www.facebook.com/zarinaprvasevda/" class="social-link"><i class="fab fa-facebook-f"></i></a>`,
         "btnEN": "Donate for Zarina Prvasevda",
         "btnMK": "Донирај за Зарина Првасевда"
     },
@@ -176,7 +215,10 @@ export default [
         Damir Puh – guitar <br> 
         Stefan Petanovski – guitar <br> 
         Darko Fotinovski – bass <br> 
-        Dejan Apostolovski – drums`,
+        Dejan Apostolovski – drums <br><br>
+        <a target="_blank" href="https://www.instagram.com/station.innermost/?hl=en" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="https://www.facebook.com/StationInnermost/" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a target="_blank" class="link social-link" href="http://stationinnermost.com/">Official website</a>`,
         "descriptionMK": `Station: Innermost е прогресив рок бенд од Скопје, формиран 2018-та година. Во 2019-та бендот го издава своето деби концептуално ЕП "Exposure", 27 минути музика спакувани во 5 песни базирани на 5 различни ликови, чија тематика се заснова на психолошки стадиуми и процеси предизвикани од секојдневниот живот. Како гостин на две песни од "Expsure" се појавува клавијатуристот Derek Sherinian (ex-Dream Theater, Alice Cooper, Billy Idol, Planet X, итн. ). Гостин на “Exposure” е и Ади Имери како вокал, исто така на две песни. <br><br>
         На почеток на 2020, Station: Innermost објавуваат нов сингл со видео запис под наслов "The Light", и прават свирачки промоции во рамките на државата. Моментално, бендот работи на нова музика која ќе биде објавена во блиска иднина. <br><br>
         Членови на Station: Innermost се: <br>
@@ -184,8 +226,10 @@ export default [
         Дамир Пух - гитара <br>
         Стефан Петановски - гитара <br>
         Дарко фотиновски - бас гитара <br>
-        Дејан Апостоловски – тапани <br>
-        `,
+        Дејан Апостоловски – тапани <br> <br>
+        <a target="_blank" href="https://www.instagram.com/station.innermost/?hl=en" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="https://www.facebook.com/StationInnermost/" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a target="_blank" class="link social-link"  href="http://stationinnermost.com/">Official website</a>`,
         "btnEN": "Donate for Station: Innermost",
         "btnMK": "Донирај за Station: Innermost"
     },
@@ -195,15 +239,18 @@ export default [
         "title": 'Kire Mirchovski',
         "image": 'img/thumb/kire.jpg',
         "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/DU5fqsH1qbE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
-        "descriptionEN": `Kire Mirchovski is a talented guitarist from Skopje the capital of Macedonia, the heart of the Balkan region and the motherland of great musicians. This ambitious song author is very passionate about writing as well and he is currently working on his debut solo EP - ‘’Insanus’’. When you hear the five compositions who are found on his debut, you could enjoy the sound of the guitars and the power of  the instrumental rock will not leave you indifferent. Part of this journey is the well-known Macedonian
-        guitarist Damir Puh who as a special guest is also the face behind the mix and master for the whole project. <br><br>
+        "descriptionEN": `Kire Mirchovski is a talented guitarist from Skopje the capital of Macedonia, the heart of the Balkan region and the motherland of great musicians. This ambitious song author is very passionate about writing as well and he is currently working on his debut solo EP - ‘’Insanus’’. When you hear the five compositions who are found on his debut, you could enjoy the sound of the guitars and the power of  the instrumental rock will not leave you indifferent. Part of this journey is the well-known Macedonian guitarist Damir Puh who as a special guest is also the face behind the mix and master for the whole project. <br><br>
          It’s not a secret that Kire is а huge fan of sound effects who is also boldly experimenting with Psychedelic music. This kind of music plays a big role for &quot;Atom Particles&quot;, Kire&#39;s band. The ambitious Macedonian has been part of many musical projects, currently he is collaborating with &quot;Miyatta&quot;. <br><br>
-          But with all the projects and the responsibility calling on him, he still manages to be fully present and active with his other cover band &quot;Caffeine&quot;.`,
+          But with all the projects and the responsibility calling on him, he still manages to be fully present and active with his other cover band &quot;Caffeine&quot;. <br> <br>
+          <a target="_blank" href="instagram.com/kiremirchovski/" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a target="_blank" href="https://www.facebook.com/kiremirch/" class="social-link"><i class="fab fa-facebook-f"></i></a>`,
         "descriptionMK": `Кире Мирчовски е гитарист, автор, композитор од Скопје, Македонија. Во Финални подготовки е издавањето на неговото прво, соло EP – ‘Insanus’. Станува збор за гитарска, инструментална рок музика, составена од пет композиции. Гитарско соло во една од композициите свири и потпишува гитаристот Дамир Пух кој воедно ги работи миксот и мастерот на целиот проект. <br><br> 
         Како гитарист кој сака да икспериментира со звукот, фанатик по ефекти и психоделија има голем импут во креирањето на новата музика во неговиот авторски бенд - Atom Particles, музика која допрва ќе стане дел од пошироката јавност. <br><br>
         Atom Particles членови: <br><br>
         Кире Мирчовски – гитара <br> Томе Трајковски – бас гитара<br> Иво Митковски – Тапани.<br><br>
-        Свири, настапува и е дел од проекти со Мијата’ и е член на кавер бендот ‘CaffeIne’.`,
+        Свири, настапува и е дел од проекти со Мијата’ и е член на кавер бендот ‘CaffeIne’.<br> <br>
+        <a target="_blank" href="instagram.com/kiremirchovski/" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="https://www.facebook.com/kiremirch/" class="social-link"><i class="fab fa-facebook-f"></i></a>`,
         "btnEN": "Donate for Kire Mirchovski",
         "btnMK": "Донирај за Кире Мирчовски"
     },
@@ -221,7 +268,10 @@ export default [
         - Debut solo album “Recollection” (2017) <br>
         - Station: Innermost - “Exposure” (2019) <br>
         - Station: Innermost single – “The Light” (2020) <br>
-        - “Radiance” – solo single (2020)`,
+        - “Radiance” – solo single (2020)<br> <br>
+        <a target="_blank" href="instagram.com/kiremirchovski/" class="social-link"><i class="fab fa-instagram"></i></a> 
+        <a target="_blank" class="link social-link"  href="http://damirpuh.com/">Official website</a>
+        ` ,
         "descriptionMK": `Дамир Пух е гитарист, композитор и продуцент со седиште во Скопје, Република Северна
         Македонија. Почнува да свири гитара на 13 годишна возраст, инспириран од бројни класични блуз-рок бендови и артисти. Таа почетна искра е подоцна надополнета со влијанија од инструменталниот, прогресивен и fusion музички свет. Контрастот помеѓу едноставната, енергична и софистицираната и слоевита музика остава постојан белег на неговиот стил на свирење гитара и музичка продукција  – креирање бескомпромисна музика што ќе инспирира. <br><br>
         Креирањето, снимањето и изведбата на оригинална музика е неговиот примарен фокус уште од самите музички почетоци. Има издадено музика како соло артист, како дел од бројни бендови,
@@ -232,7 +282,9 @@ export default [
         - “Recollection” (2017) – соло албум <br>
         - Station: Innermost - “Exposure” (2019) – ЕП <br>
         - Station: Innermost – “The Light” (2020) - сингл <br>
-        - “Radiance” – сингл (2020)`,
+        - “Radiance” – сингл (2020) <br> <br>
+        <a target="_blank" href="instagram.com/kiremirchovski/" class="social-link"><i class="fab fa-instagram"></i></a> 
+        <a target="_blank" class="link social-link"  href="http://damirpuh.com/">Official website</a>`,
         "btnEN": "Donate for Damir Puh",
         "btnMK": "Донирај за Дамир Пух"
     },
@@ -244,21 +296,75 @@ export default [
         "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/VNF90F8FKRQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
         "descriptionEN": `Stefan Petanovski is a guitarist, artist and composer based in Skopje, Macedonia. His style as an artist can be explained as a mixture of different genres from rock, metal all the way to jazz, fusion while still maintaining the modern progressive sound. His main goal is to incorporate new elements, textures and soundscapes in order to achieve evolution and hopefully, to find his own unique creative “voice” within the whole musical palette.<br><br>
         Besides guitar playing, another big passion of his is composition, that&#39;s where the bulk of the inspiration comes from, he also spends fair amount of time crafting the field of production and mixing.<br><br>
-        Over the years, he&#39;s been a part of many projects and bands including Spectrum (with whom they&#39;ve released the album “Hiraeth”), Damir Puh&#39;s solo project band and most recently, Chromatic Point.<br><br>
-        Despite all these projects, his main band and occupation remains Station: Innermost with whom they&#39;ve released the EP “Exposure” in 2019 as well as a follow up single “The Light”. Yet they continue to work on new material that will be released in the future.<br><br>
+        Over the years, he&#39;s been a part of many projects and bands including Spectrum (with whom they&#39;ve released the album “Hiraeth”), Damir Puh&#39;s solo project band and most recently, Chromatic Point. Despite all these projects, his main band and occupation remains Station: Innermost with whom they&#39;ve released the EP “Exposure” in 2019 as well as a follow up single “The Light”. Yet they continue to work on new material that will be released in the future.<br><br>
         In 2019, he released his first solo album “Architect of Reality” and that marked the beginning of his solo project. <br><br>
-        Currently, he&#39;s working on his second solo album, a conceptual piece of music with tons of experimentation, pushing the musical comfort zone as he continues to fuse all sorts of different and unpredictable sounds and styles.`,
+        Currently, he&#39;s working on his second solo album, a conceptual piece of music with tons of experimentation, pushing the musical comfort zone as he continues to fuse all sorts of different and unpredictable sounds and styles. <br><br>
+        <a target="_blank" href="https://www.instagram.com/stefanpetanovski/" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="https://www.youtube.com/stefanpetanovski" class="social-link"><i class="fab fa-youtube"></i></a>
+        <a target="_blank" href="https://www.facebook.com/StefanPetanovski.SP/" class="social-link"><i class="fab fa-facebook-f"></i></a>`,
         "descriptionMK": `Стефан Петановски е гитарист, артист и композитор од Скопје, Македонија. Неговиот стил најдобро може да се опише како спој од различни жанрови меѓу кои рок,
         метал, џез, фјужн, а сепак задржувајќи го модерниот прогерсивен звук. Со инкорпорирање нови елементи, текстури и звуци, се стреми да го најде својот уникатен и
         креативен тон низ целата музичка палета.<br><br>
         Исто како и гитарата, негова голема пасија претставува компонирањето, од каде произлегува основата на неговата инспирација. Тој посветува голем дел од времето работејќи и усовршувајќи се во полето на продукција и микс.<br><br>
-        Низ годините, тој учествува во голем број проекти и бендови, меѓу кои: Spectrum (во чии состав го издадоа албумот “Hiraeth”), бендот на Дамир Пух и неодамна, Chromatic Point.<br><br>
-        И покрај сите овие проекти, неговата главна окупација останува бендот Station: Innermost. Тие го издадоа нивното прво издание “Exposure” во 2019, како и синглот &quot;The
-        Light&quot;. Бендот работи и на нов материјал кој ќе биде издаден во иднина. <br><br>
+        Низ годините, тој учествува во голем број проекти и бендови, меѓу кои: Spectrum (во чии состав го издадоа албумот “Hiraeth”), бендот на Дамир Пух и неодамна, Chromatic Point. И покрај сите овие проекти, неговата главна окупација останува бендот Station: Innermost. Тие го издадоа нивното прво издание “Exposure” во 2019, како и синглот &quot;The Light&quot;. Бендот работи и на нов материјал кој ќе биде издаден во иднина. <br><br>
         Во 2019, Стефан го издава својот прв соло албум “Architect of Reality” и со тоа го бележи
         почетокот на својот соло проект.<br><br>
-        Во моментов, работи на својот втор соло албум, станува збор за концептуално парче музика со голема доза на експериментирање, тој имплементира различни, непредвидливи звуци и стилови со што продолжува да ја пробива својата музичка комфорт зона.`,
+        Во моментов, работи на својот втор соло албум, станува збор за концептуално парче музика со голема доза на експериментирање, тој имплементира различни, непредвидливи звуци и стилови со што продолжува да ја пробива својата музичка комфорт зона.<br><br>
+        <a target="_blank" href="https://www.instagram.com/stefanpetanovski/" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="https://www.youtube.com/stefanpetanovski" class="social-link"><i class="fab fa-youtube"></i></a>
+        <a target="_blank" href="https://www.facebook.com/StefanPetanovski.SP/" class="social-link"><i class="fab fa-facebook-f"></i></a>`,
         "btnEN": "Donate for Stefan Petanovski",
         "btnMK": "Донирај за Стефан Петановски"
+    },
+    {
+        "id": 17,
+        "assetId": 105728,
+        "title": 'Bona Dea',
+        "image": 'img/thumb/bona-dea.jpg',
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/P6mNQH8Mcbw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+        "descriptionEN": `We are a local Macedonian band that plays...well...everything. :D <br><br>
+        Combining different instruments, styles and languages, we connect with the audience on a musical journey through different artistic periods, countries and emotions. It is in the beauty and charm of musical diversity, from chansons françaises, the Beatles, the sound of New Orleans-Dixie jazz, le canzone italiane and many more, that the uniqueness of Bona Dea is shaped.<br><br>
+        We find inspiration in ourselves as well as in our friendship for creating our own music and songs in Macedonian, English, Vlach and French language.<br><br>
+        Aleksandra Stankoska Dimitrovska<br>
+        Darko Jovanov<br>
+        Marija Kocevska<br><br>
+        <a target="_blank" href="https://www.instagram.com/je_suis_bona_dea/" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="https://www.facebook.com/BonaDeaSk/" class="social-link"><i class="fab fa-facebook-f"></i></a>`,
+        "descriptionMK": `Бона Деа (Bona Dea) е скопски бенд кој постои од 2010 година.<br><br>
+        По неколку години константно менување на членовите, во 2015 година по настапот на Ад Хок фестивалот, бендот добива целина и конечно го пронаоѓа својот звук. Составен од три члена:
+        Александра, Дарко и Марија. Настапуваат на многу јазици а, најчесто на француски, руски, влашки, италијански и шпански. Бона Деа се познати по соработката со разни музичари од  цела Македонија а со тоа и по различните жанрови што ги користат во музицирањето и  мешање стилови во авторската музика и во преработките што ги изведуваат.<br><br>
+        Моментално го спремаат својот прв демо албум а дел од авторските песни може да ги чуете на нивниот YouTube канал “Bona Dea Trio” и на фејсбук фан страната @BonaDeaSk.<br><br>
+        <a target="_blank" href="https://www.instagram.com/je_suis_bona_dea/" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="https://www.facebook.com/BonaDeaSk/" class="social-link"><i class="fab fa-facebook-f"></i></a>`,
+        "btnEN": "Donate for Bona Dea",
+        "btnMK": "Донирај за Бона Деа"
+    },
+    {
+        "id": 18,
+        "assetId": 105729,
+        "title": 'AntiarT',
+        "image": 'img/thumb/antiart.jpg',
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/PwTqVrvFt9A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+        "descriptionEN": `AntiarT are a local Skopje band. They were originally formed by Nikola Bochvarov and Leana Thaqi, who together with David Matevski had been friends and colleagues for about 15 years. <br><br>
+        All 5 band members are highly experienced, have been and still are members of many prominent ensembles. The band’s first demo was recorded the summer of 2017. They had their first live gig on April 27, 2018, and their first album “No Need to Fit in a Mould” saw the light of day on June 10, 2019. The album was printed in 200 samples, and supported by the Ministry of Culture. The album can still be found and purchased online, on <a target="_blank" href="https://www.youtube.com/playlist?list=OLAK5uy_laGWl4Rwz5f2ZluwtuOZkzn4pVJuCyIe4" class="link">YouTube</a>, <a target="_blank" href="https://www.deezer.com/en/album/99804312" class="link">Deezer</a>, <a target="_blank" href="https://play.google.com/store/music/album?id=Bqs72h2m6qu6hqebxnuo5dgdwdm&amp;tid=song-Tapu3yqltjqbyidxdsh3vdzn6ey" class="link">Google  Play</a>, <a target="_blank" href="https://music.apple.com/album/1467774911?amp%3Bapp=itunes&ls=1" class="link">iTunes</a>, <a target="_blank" href="https://open.spotify.com/album/2X8MdNOJmShKqBnk1cPUKl" class="link">Spotify</a>...<br><br>
+        As far as genres go, AntiarT are a band who doesn’t like to fit in moulds - meaning, likes to experiment with elements varying from rock to soul, to jazz, to reggae, to funk… and basically everything that seems like a good idea at the moment. Most of all, they enjoy performing live.<br><br>
+        The band is currently working on their second album, and during the days of lockdown they published a video for one of the songs that will be on it Oblaci (Clouds).<br><br>
+        Band Members:<br>
+        Leana Thaqi - Vocals / Lyrics<br>
+        Nikola Bochvarov - Bass Guitar / Composer<br>
+        David Matevski - Electric / Acoustic Guitar<br>
+        Aleksandar Vanchovski - Drums <br>
+        Petar Lukic - Keyboard <br>
+        Gordan Spasovski - Keyboard on entire first album <br><br>
+        <a target="_blank" href="https://www.instagram.com/antiart_band" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="https://www.facebook.com/AntiarTBand/" class="social-link"><i class="fab fa-facebook-f"></i></a>`,
+        "descriptionMK": `АнтиарТ се локален скопски бенд, оформен од Никола Бочваров и Леана Таќи, кои тогаш, заедно со Давид Матевски, веќе беа пријатели и колеги околу 15 години. <br><br>
+        Сите 5 члена на бендот се прилично искусни - биле и сè уште членуваат во доста познати состави. Првото демо на бендот беше снимено летото, 2017 година. Го имаа првиот настап  во живо на 27 април, 2018 година, а нивниот прв албум No Need to Fit in a Mould (Нема потреба да се вклопиш во калап) доживеа промоција на 10 јуни, 2019 година. Албумот беше отпечатен во 200 примероци и поддржан од Министерството за култура. Албумот сè уште може да се најде и купи и во електронско издание на <a target="_blank" href="https://www.youtube.com/playlist?list=OLAK5uy_laGWl4Rwz5f2ZluwtuOZkzn4pVJuCyIe4" class="link">YouTube</a>, <a target="_blank" href="https://www.deezer.com/en/album/99804312" class="link">Deezer</a>, <a target="_blank" href="https://play.google.com/store/music/album?id=Bqs72h2m6qu6hqebxnuo5dgdwdm&amp;tid=song-Tapu3yqltjqbyidxdsh3vdzn6ey" class="link">Google  Play</a>, <a  target="_blank"href="https://music.apple.com/album/1467774911?amp%3Bapp=itunes&ls=1" class="link">iTunes</a>, <a target="_blank" href="https://open.spotify.com/album/2X8MdNOJmShKqBnk1cPUKl" class="link">Spotify</a>...<br><br>
+        Што се однесува до жанрот на бендот, АнтиарТ се бенд кој не сака да се вклопи во калап - што значи дека сакаат да експериментираат со елементи кои варираат од рок до соул, до џез, до реге, до фанк… и практично сè што звучи како добра идеја во моментот. Најмногу од сè сакаат да настапуваат во живо.<br><br>
+        Во моментов тие работат на својот втор албум, а во карантинските денови ја издадоа и првата песна од него, Облаци. <br><br>
+        <a target="_blank" href="https://www.instagram.com/antiart_band" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="https://www.facebook.com/AntiarTBand/" class="social-link"><i class="fab fa-facebook-f"></i></a>`,
+        "btnEN": "Donate for AntiarT",
+        "btnMK": "Донирај за АнтиарТ"
     },
 ];
