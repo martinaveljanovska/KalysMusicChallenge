@@ -12,7 +12,9 @@ export default [
 		Ivan Petrovski – guitar (Outlaw, ATOM, 3ject, FIN-Project, DSH); <br>
 		Nikola Bochvarov – bass (Бла, Бла, Бла; Калап, Атом, Bramha Trio, Antiart); <br>
 		Petar Lukic – piano &amp; keyboards (Јаболко за Даскалот, Примордијална Манџа, 3ject, Bramha Trio, Antiart); <br>
-		Aleksandar Vanchovski – drums (Hideout, Scriming For Change, ATOM, Bramha Trio, 3ject, Antiart);`,
+        Aleksandar Vanchovski – drums (Hideout, Scriming For Change, ATOM, Bramha Trio, 3ject, Antiart);
+        <br><br>
+        <a target="_blank" href="https://www.facebook.com/Mjuzaik/" class="social-link"><i class="fab fa-facebook-f"></i></a>`,
         "descriptionMK": `Мјузаик егзистира на звучната мапа на публикумот од 2015 год. Мозаично музицирање е кредото според кое делува овој несекојдневен колектив. Музиката која ја креираат
 		претставува легура од стилови поврзани со специфична нишка која всушност е срцето на овој состав, било тоа да е преку интерпретација на преработки на хитови од различни страни на компасот или пак во авторството.  <br> <br>
 		Секој од членовите на овој колектив има богат авторски опус зад себе: <br>
@@ -20,7 +22,9 @@ export default [
 		Иван Петровски – гитара (Outlaw, ATOM, 3ject, FIN-Project, DSH); <br>
 		Никола Бочваров – бас (Бла, Бла, Бла; Калап, Атом, Bramha Trio, Antiart); <br>
 		Петар Лукиќ – клaвијатури (Јаболко за Даскалот, Примордијална Манџа, 3ject, Bramha Trio, Antiart); <br>
-		Александар Џигер Ванчовски – тапани (Hideout, Scriming For Change, ATOM, Bramha Trio, 3ject, Antiart);`,
+        Александар Џигер Ванчовски – тапани (Hideout, Scriming For Change, ATOM, Bramha Trio, 3ject, Antiart);
+        <br><br>
+        <a target="_blank" href="https://www.facebook.com/Mjuzaik/" class="social-link"><i class="fab fa-facebook-f"></i></a>`,
         "btnEN": "Donate for MusaiQ",
         "btnMK": "Донирај за MusaiQ"
     },
@@ -43,9 +47,17 @@ export default [
         "title": 'Junkyard',
         "image": 'img/thumb/junkyard.jpg',
         "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/DvLzbSt1jI0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
-        "descriptionEN": `Hey, guys! We are Junkyard, a band situated in the capital of North Macedonia, Skopje. Our journey actually begins few years ago, 2017 to be exact. We are a group of young students and musicians who happen to share the same love and passion for the sound of funk and disco music, and also love playing and making music together as friends. Our sound is made under the influence of funk music, we kind of like the 70’s and 80’s a bit too much. As a band, we’ve played at different places throughout Skopje, such as some of the night clubs, pubs, festivals, we’ve also been guests to weddings and private parties. Currently, we’re working on our first album.  <br> <br>It’s about time you meet the band:  <br> Lead vocal: Marija Ilievska  <br>  Guitar: Filip Popov  <br> Keys: Stefan Aleksovski  <br> Bass: Kristijan Kozhumanovski  <br> Drums: Teodor Teodosievski`,
+        "descriptionEN": `Hey, guys! We are Junkyard, a band situated in the capital of North Macedonia, Skopje. Our journey actually begins few years ago, 2017 to be exact. We are a group of young students and musicians who happen to share the same love and passion for the sound of funk and disco music, and also love playing and making music together as friends. Our sound is made under the influence of funk music, we kind of like the 70’s and 80’s a bit too much. As a band, we’ve played at different places throughout Skopje, such as some of the night clubs, pubs, festivals, we’ve also been guests to weddings and private parties. Currently, we’re working on our first album.  <br> <br>It’s about time you meet the band:  <br> Lead vocal: Marija Ilievska  <br>  Guitar: Filip Popov  <br> Keys: Stefan Aleksovski  <br> Bass: Kristijan Kozhumanovski  <br> Drums: Teodor Teodosievski
+        <br><br>
+        <a target="_blank" href="https://www.facebook.com/junkya-104979534196917/" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a target="_blank" href="https://www.instagram.com/junk.ya/" class="social-link"><i class="fab fa-instagram"></i></a>
+        `,
         "descriptionMK": `Junkyard е бенд кој доаѓа од Скопје, оформен во 2017тата година од страна на млади студенти/музичари, ентузијасти за фанк и ретро музиката. Звукот на Junkyard e
-        aвтентичен, произлезен под влијание на фанк и ретро музиката од 70тите и 80тите години. Како бенд, имаат настапувано на најразлични настани и во најразлични локали. Моментално работат на нивниот прв авторски албум.  <br> <br>Во бендот членуваат:  <br> Вокал: Марија Илиевска  <br> Гитара: Филип Попов • <br>Клавијатури: Стефан Алексовски  <br> Бас: Кристијан Кожумановски  <br> Тапани: Теодор Теодосиевски`,
+        aвтентичен, произлезен под влијание на фанк и ретро музиката од 70тите и 80тите години. Како бенд, имаат настапувано на најразлични настани и во најразлични локали. Моментално работат на нивниот прв авторски албум.  <br> <br>Во бендот членуваат:  <br> Вокал: Марија Илиевска  <br> Гитара: Филип Попов • <br>Клавијатури: Стефан Алексовски  <br> Бас: Кристијан Кожумановски  <br> Тапани: Теодор Теодосиевски
+        <br><br>
+        <a target="_blank" href="https://www.facebook.com/junkya-104979534196917/" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a target="_blank" href="https://www.instagram.com/junk.ya/" class="social-link"><i class="fab fa-instagram"></i></a>
+        `,
         "btnEN": "Donate for Junkyard",
         "btnMK": "Донирај за Junkyard"
     },
@@ -55,8 +67,16 @@ export default [
         "title": 'Superhiks',
         "image": 'img/thumb/superhiks.jpg',
         "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/XISSW7SV8qY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
-        "descriptionEN": `SUPERHIKS classifies as ska-punk band with reggae, latin and Balkan folk music influences. Formed by 3 high school friends Petar Mladenovski, Boris Minov and Zoran Zhezhov in 1994, starting with mixture of ska, punk and hardcore music.  Today the band features 8 memebers: <br>Petar Mladenovski (Bass & Vocals)<br> Boris Minov (Lead Guitar & Vocals)<br> Darko Popov (Drums & Vocals)<br> Aleksandar Spasovski - Zuti (Trumpet)<br> Branko Ilievski (Trombone)<br> Sime Zlatkov (Saxophone & Vocals)<br> Goce Lalkovski (Turntables) <br> Stefan Aleksovski (Keyboard)<br><br> Superhiks has shared stages with other world famous acts: Faith No More, Manu Chao and Radio Bemba, Fun Lovin Criminals, Fishbone, House Of Pain, Henry Rollins, H-Block, Rico Rodriguez and many others... Superhiks draws upon the “old school” and “new school” ska influences, adds their own twist and some local Balkan beats, and what you get is one of the major forces paving the way in the “third wave” movement.`,
-        "descriptionMK": `СУПЕРХИКС се класифицираат како ска-панк бенд со додатни инфлуенци од реге,латино и балканската музика. Формирани во 1994 година од три средно школски другари Петар Младеновски, Борис Минов и Зоран Жежов, почнуваат со експериментирање со ска,панк и хардкор музика. Денеска бендот брои 8 члена и тоа се: <br>Петар Младеновски (бас и вокали)<br> Борис Минов(гитара и вокали)<br> Дарко Попов (тапани и вокали)<br> Александар  Спасовски (труба)<br> Бранко Илиевски (тромбон)<br> Симе Златков (саксофон и вокали)<br> Гоце  Лалковски (грамафони) <br>Стефан Алексовски (клавијатури)<br><br> Суперхикс ја имаат делено  бината со доста звучни имиња од кои: Faith No More, Manu Chao and Radio Bemba, Fun Lovin Criminals, Fishbone, House Of Pain, Henry Rollins, H-Block, Rico Rodriguez и уште многу други... Суперхикс влечат инспирација од старата и нова школа на ска музиката и додаваат сопствен шмек инспириран од локални балкански ритмови, со тоа и се дел од “третиот бран на ска“ музика...`,
+        "descriptionEN": `SUPERHIKS classifies as ska-punk band with reggae, latin and Balkan folk music influences. Formed by 3 high school friends Petar Mladenovski, Boris Minov and Zoran Zhezhov in 1994, starting with mixture of ska, punk and hardcore music.  Today the band features 8 memebers: <br>Petar Mladenovski (Bass & Vocals)<br> Boris Minov (Lead Guitar & Vocals)<br> Darko Popov (Drums & Vocals)<br> Aleksandar Spasovski - Zuti (Trumpet)<br> Branko Ilievski (Trombone)<br> Sime Zlatkov (Saxophone & Vocals)<br> Goce Lalkovski (Turntables) <br> Stefan Aleksovski (Keyboard)<br><br> Superhiks has shared stages with other world famous acts: Faith No More, Manu Chao and Radio Bemba, Fun Lovin Criminals, Fishbone, House Of Pain, Henry Rollins, H-Block, Rico Rodriguez and many others... Superhiks draws upon the “old school” and “new school” ska influences, adds their own twist and some local Balkan beats, and what you get is one of the major forces paving the way in the “third wave” movement.
+        <br><br>
+        <a target="_blank" href="https://www.facebook.com/superhiks/" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a target="_blank" href="https://www.instagram.com/superhiksofficial/" class="social-link"><i class="fab fa-instagram"></i></a>
+        `,
+        "descriptionMK": `СУПЕРХИКС се класифицираат како ска-панк бенд со додатни инфлуенци од реге,латино и балканската музика. Формирани во 1994 година од три средно школски другари Петар Младеновски, Борис Минов и Зоран Жежов, почнуваат со експериментирање со ска,панк и хардкор музика. Денеска бендот брои 8 члена и тоа се: <br>Петар Младеновски (бас и вокали)<br> Борис Минов(гитара и вокали)<br> Дарко Попов (тапани и вокали)<br> Александар  Спасовски (труба)<br> Бранко Илиевски (тромбон)<br> Симе Златков (саксофон и вокали)<br> Гоце  Лалковски (грамафони) <br>Стефан Алексовски (клавијатури)<br><br> Суперхикс ја имаат делено  бината со доста звучни имиња од кои: Faith No More, Manu Chao and Radio Bemba, Fun Lovin Criminals, Fishbone, House Of Pain, Henry Rollins, H-Block, Rico Rodriguez и уште многу други... Суперхикс влечат инспирација од старата и нова школа на ска музиката и додаваат сопствен шмек инспириран од локални балкански ритмови, со тоа и се дел од “третиот бран на ска“ музика...
+        <br><br>
+        <a target="_blank" href="https://www.facebook.com/superhiks/" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a target="_blank" href="https://www.instagram.com/superhiksofficial/" class="social-link"><i class="fab fa-instagram"></i></a>
+        `,
         "btnEN": "Donate for Superhiks",
         "btnMK": "Донирај за Superhiks"
     },
