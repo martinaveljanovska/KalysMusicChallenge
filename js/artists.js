@@ -387,4 +387,27 @@ export default [
         "btnEN": "Donate for AntiarT",
         "btnMK": "Донирај за АнтиарТ"
     },
+    {
+        "id": 19,
+        "assetId": 106875,
+        "title": 'Alembic',
+        "image": 'img/thumb/alembic.jpg',
+        "video": `<iframe width="560" height="315" src="https://www.youtube.com/embed/QaTB0T0zRW4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`,
+        "descriptionEN": `“Alembic” are Viktor Tanaskovski (electric and acoustic guitar, bass guitar, mandola, vocals) and Iva Damjanovski (keyboards, vocals, theremin). Their music is an attempt to fuse and reinvent a variety of musical genres using experimental and atypical ways of producing sound, playing a game of bottles and beakers with musical elements, as the name suggests. <br><br>
+        Currently, they are working on their self-titled debut album (recording and sound engineering by Nino Spirkoski).<br><br>
+        <a target="_blank" href="https://www.facebook.com/aalembik/" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCv1gR5qgnpXrS9NvGeHnDWw" class="social-link"><i class="fab fa-youtube"></i></a>
+        <a target="_blank" href="https://www.instagram.com/aalembik/" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="https://alembic1.bandcamp.com/" class="social-link"><i class="fab fa-bandcamp"></i></a>
+        <a target="_blank" href="https://soundcloud.com/user-414986802" class="social-link"><i class="fab fa-soundcloud"></i></a>`,
+        "descriptionMK": `„Алембик“ се Виктор Танасковски (електрична и акустична гитара, бас гитара, мандола, вокал) и Ива Дамјановски (клавијатури, вокал, теремин).  Нивната музика е обид за спој и реобмислување на различни музички жанрови, користејќи експериментални и атипични начини на произведување звук преку (алхемиска) игра со музичките елементи (оттука и  идејата позади името). <br><br>
+        Во моментов работат на првиот, истоимен албум во продукција на Нино Спиркоски. <br><br>
+        <a target="_blank" href="https://www.facebook.com/aalembik/" class="social-link"><i class="fab fa-facebook-f"></i></a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCv1gR5qgnpXrS9NvGeHnDWw" class="social-link"><i class="fab fa-youtube"></i></a>
+        <a target="_blank" href="https://www.instagram.com/aalembik/" class="social-link"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="https://alembic1.bandcamp.com/" class="social-link"><i class="fab fa-bandcamp"></i></a>
+        <a target="_blank" href="https://soundcloud.com/user-414986802" class="social-link"><i class="fab fa-soundcloud"></i></a>`,
+        "btnEN": "Donate for Alembic",
+        "btnMK": "Донирај за Алембик"
+    },
 ];
